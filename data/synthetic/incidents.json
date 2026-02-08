@@ -1,0 +1,1218 @@
+[
+  {
+    "id": "INC-0001",
+    "type": "HazMat_GasLeak",
+    "priority": "P2",
+    "description": "Emergency incident at Electronic City - HazMat GasLeak",
+    "location": {
+      "name": "Electronic City",
+      "lat": 12.846850137012524,
+      "lon": 77.66694541365547
+    },
+    "assets_dispatched": [
+      {
+        "type": "HazMat_Team",
+        "quantity": 1
+      },
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      }
+    ],
+    "status": "active",
+    "timestamp": "2024-08-17T06:45:00",
+    "access_level": "commander"
+  },
+  {
+    "id": "INC-0002",
+    "type": "Fire_Residential",
+    "priority": "P1",
+    "description": "Emergency incident at Whitefield - Fire Residential",
+    "location": {
+      "name": "Whitefield",
+      "lat": 12.964871930222044,
+      "lon": 77.74596050336298
+    },
+    "assets_dispatched": [
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      },
+      {
+        "type": "Water_Tender",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-02-24T13:52:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0003",
+    "type": "Fire_Commercial",
+    "priority": "P1",
+    "description": "Emergency incident at MG Road - Fire Commercial",
+    "location": {
+      "name": "MG Road",
+      "lat": 12.979807267903208,
+      "lon": 77.60505269027452
+    },
+    "assets_dispatched": [
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      },
+      {
+        "type": "Water_Tender",
+        "quantity": 1
+      },
+      {
+        "type": "Ladder_Truck",
+        "quantity": 1
+      }
+    ],
+    "status": "active",
+    "timestamp": "2024-01-19T02:36:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0004",
+    "type": "Medical_Trauma",
+    "priority": "P2",
+    "description": "Emergency incident at Indiranagar - Medical Trauma",
+    "location": {
+      "name": "Indiranagar",
+      "lat": 12.970598382421187,
+      "lon": 77.64027685001251
+    },
+    "assets_dispatched": [
+      {
+        "type": "BLS_Ambulance",
+        "quantity": 1
+      },
+      {
+        "type": "Trauma_Kit",
+        "quantity": 1
+      }
+    ],
+    "status": "active",
+    "timestamp": "2024-03-08T03:00:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0005",
+    "type": "Rescue_Building_Collapse",
+    "priority": "P1",
+    "description": "Emergency incident at Koramangala - Rescue Building Collapse",
+    "location": {
+      "name": "Koramangala",
+      "lat": 12.944102994115543,
+      "lon": 77.62430225537419
+    },
+    "assets_dispatched": [
+      {
+        "type": "NDRF_Team",
+        "quantity": 1
+      },
+      {
+        "type": "Ambulance",
+        "quantity": 1
+      },
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-11-14T17:27:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0006",
+    "type": "Accident_Pedestrian",
+    "priority": "P2",
+    "description": "Emergency incident at Marathahalli - Accident Pedestrian",
+    "location": {
+      "name": "Marathahalli",
+      "lat": 12.96894070187336,
+      "lon": 77.70197019111016
+    },
+    "assets_dispatched": [
+      {
+        "type": "Ambulance",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-09-09T10:12:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0007",
+    "type": "Fire_Commercial",
+    "priority": "P1",
+    "description": "Emergency incident at Marathahalli - Fire Commercial",
+    "location": {
+      "name": "Marathahalli",
+      "lat": 12.956280646430343,
+      "lon": 77.68874551193267
+    },
+    "assets_dispatched": [
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      },
+      {
+        "type": "Water_Tender",
+        "quantity": 1
+      },
+      {
+        "type": "Ladder_Truck",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-05-07T08:12:00",
+    "access_level": "commander"
+  },
+  {
+    "id": "INC-0008",
+    "type": "Fire_Residential",
+    "priority": "P1",
+    "description": "Emergency incident at Electronic City - Fire Residential",
+    "location": {
+      "name": "Electronic City",
+      "lat": 12.84633646768262,
+      "lon": 77.67753712113115
+    },
+    "assets_dispatched": [
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      },
+      {
+        "type": "Water_Tender",
+        "quantity": 1
+      }
+    ],
+    "status": "active",
+    "timestamp": "2024-02-16T12:20:00",
+    "access_level": "commander"
+  },
+  {
+    "id": "INC-0009",
+    "type": "Fire_Residential",
+    "priority": "P1",
+    "description": "Emergency incident at Marathahalli - Fire Residential",
+    "location": {
+      "name": "Marathahalli",
+      "lat": 12.954587353943962,
+      "lon": 77.70474486515407
+    },
+    "assets_dispatched": [
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      },
+      {
+        "type": "Water_Tender",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-01-05T01:55:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0010",
+    "type": "Fire_Commercial",
+    "priority": "P1",
+    "description": "Emergency incident at Koramangala - Fire Commercial",
+    "location": {
+      "name": "Koramangala",
+      "lat": 12.937099834086162,
+      "lon": 77.63091609588243
+    },
+    "assets_dispatched": [
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      },
+      {
+        "type": "Water_Tender",
+        "quantity": 1
+      },
+      {
+        "type": "Ladder_Truck",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-03-10T21:18:00",
+    "access_level": "commander"
+  },
+  {
+    "id": "INC-0011",
+    "type": "Medical_Trauma",
+    "priority": "P2",
+    "description": "Emergency incident at Indiranagar - Medical Trauma",
+    "location": {
+      "name": "Indiranagar",
+      "lat": 12.983815847046468,
+      "lon": 77.63339966568729
+    },
+    "assets_dispatched": [
+      {
+        "type": "BLS_Ambulance",
+        "quantity": 1
+      },
+      {
+        "type": "Trauma_Kit",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-11-25T08:50:00",
+    "access_level": "commander"
+  },
+  {
+    "id": "INC-0012",
+    "type": "Fire_Commercial",
+    "priority": "P1",
+    "description": "Emergency incident at Koramangala - Fire Commercial",
+    "location": {
+      "name": "Koramangala",
+      "lat": 12.934280617664736,
+      "lon": 77.61453716020421
+    },
+    "assets_dispatched": [
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      },
+      {
+        "type": "Water_Tender",
+        "quantity": 1
+      },
+      {
+        "type": "Ladder_Truck",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-11-26T17:17:00",
+    "access_level": "commander"
+  },
+  {
+    "id": "INC-0013",
+    "type": "Fire_Residential",
+    "priority": "P1",
+    "description": "Emergency incident at MG Road - Fire Residential",
+    "location": {
+      "name": "MG Road",
+      "lat": 12.977384260299168,
+      "lon": 77.60661658054703
+    },
+    "assets_dispatched": [
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      },
+      {
+        "type": "Water_Tender",
+        "quantity": 1
+      }
+    ],
+    "status": "active",
+    "timestamp": "2024-09-08T14:51:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0014",
+    "type": "Accident_Vehicle",
+    "priority": "P2",
+    "description": "Emergency incident at HSR Layout - Accident Vehicle",
+    "location": {
+      "name": "HSR Layout",
+      "lat": 12.919129706764327,
+      "lon": 77.64175628855453
+    },
+    "assets_dispatched": [
+      {
+        "type": "Ambulance",
+        "quantity": 1
+      },
+      {
+        "type": "Traffic_Police",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-12-23T04:33:00",
+    "access_level": "commander"
+  },
+  {
+    "id": "INC-0015",
+    "type": "Fire_Residential",
+    "priority": "P1",
+    "description": "Emergency incident at Koramangala - Fire Residential",
+    "location": {
+      "name": "Koramangala",
+      "lat": 12.92852030977354,
+      "lon": 77.62621005564888
+    },
+    "assets_dispatched": [
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      },
+      {
+        "type": "Water_Tender",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-06-07T12:33:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0016",
+    "type": "Medical_Trauma",
+    "priority": "P2",
+    "description": "Emergency incident at Electronic City - Medical Trauma",
+    "location": {
+      "name": "Electronic City",
+      "lat": 12.846143101247375,
+      "lon": 77.67321188766086
+    },
+    "assets_dispatched": [
+      {
+        "type": "BLS_Ambulance",
+        "quantity": 1
+      },
+      {
+        "type": "Trauma_Kit",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-07-12T20:04:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0017",
+    "type": "Fire_Commercial",
+    "priority": "P1",
+    "description": "Emergency incident at MG Road - Fire Commercial",
+    "location": {
+      "name": "MG Road",
+      "lat": 12.975881482848173,
+      "lon": 77.60400742087013
+    },
+    "assets_dispatched": [
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      },
+      {
+        "type": "Water_Tender",
+        "quantity": 1
+      },
+      {
+        "type": "Ladder_Truck",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-07-21T16:04:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0018",
+    "type": "Accident_Pedestrian",
+    "priority": "P2",
+    "description": "Emergency incident at Indiranagar - Accident Pedestrian",
+    "location": {
+      "name": "Indiranagar",
+      "lat": 12.97993338431134,
+      "lon": 77.64230774615889
+    },
+    "assets_dispatched": [
+      {
+        "type": "Ambulance",
+        "quantity": 1
+      }
+    ],
+    "status": "active",
+    "timestamp": "2024-07-28T11:54:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0019",
+    "type": "HazMat_GasLeak",
+    "priority": "P2",
+    "description": "Emergency incident at Electronic City - HazMat GasLeak",
+    "location": {
+      "name": "Electronic City",
+      "lat": 12.838710784319836,
+      "lon": 77.66979705091393
+    },
+    "assets_dispatched": [
+      {
+        "type": "HazMat_Team",
+        "quantity": 1
+      },
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-03-01T17:55:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0020",
+    "type": "HazMat_GasLeak",
+    "priority": "P2",
+    "description": "Emergency incident at Indiranagar - HazMat GasLeak",
+    "location": {
+      "name": "Indiranagar",
+      "lat": 12.970519037190323,
+      "lon": 77.6486840312887
+    },
+    "assets_dispatched": [
+      {
+        "type": "HazMat_Team",
+        "quantity": 1
+      },
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-08-05T08:45:00",
+    "access_level": "commander"
+  },
+  {
+    "id": "INC-0021",
+    "type": "Rescue_Building_Collapse",
+    "priority": "P1",
+    "description": "Emergency incident at Jayanagar - Rescue Building Collapse",
+    "location": {
+      "name": "Jayanagar",
+      "lat": 12.929562138289473,
+      "lon": 77.5929133646075
+    },
+    "assets_dispatched": [
+      {
+        "type": "NDRF_Team",
+        "quantity": 1
+      },
+      {
+        "type": "Ambulance",
+        "quantity": 1
+      },
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-04-23T13:55:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0022",
+    "type": "Fire_Commercial",
+    "priority": "P1",
+    "description": "Emergency incident at Indiranagar - Fire Commercial",
+    "location": {
+      "name": "Indiranagar",
+      "lat": 12.970711093977851,
+      "lon": 77.63305446666855
+    },
+    "assets_dispatched": [
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      },
+      {
+        "type": "Water_Tender",
+        "quantity": 1
+      },
+      {
+        "type": "Ladder_Truck",
+        "quantity": 1
+      }
+    ],
+    "status": "active",
+    "timestamp": "2024-04-11T17:56:00",
+    "access_level": "commander"
+  },
+  {
+    "id": "INC-0023",
+    "type": "Accident_Pedestrian",
+    "priority": "P2",
+    "description": "Emergency incident at Koramangala - Accident Pedestrian",
+    "location": {
+      "name": "Koramangala",
+      "lat": 12.939946951013942,
+      "lon": 77.63290766566156
+    },
+    "assets_dispatched": [
+      {
+        "type": "Ambulance",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-04-09T19:01:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0024",
+    "type": "Rescue_Building_Collapse",
+    "priority": "P1",
+    "description": "Emergency incident at Jayanagar - Rescue Building Collapse",
+    "location": {
+      "name": "Jayanagar",
+      "lat": 12.919008492964746,
+      "lon": 77.59989563953314
+    },
+    "assets_dispatched": [
+      {
+        "type": "NDRF_Team",
+        "quantity": 1
+      },
+      {
+        "type": "Ambulance",
+        "quantity": 1
+      },
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      }
+    ],
+    "status": "active",
+    "timestamp": "2024-09-07T09:25:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0025",
+    "type": "Fire_Residential",
+    "priority": "P1",
+    "description": "Emergency incident at HSR Layout - Fire Residential",
+    "location": {
+      "name": "HSR Layout",
+      "lat": 12.908054086942082,
+      "lon": 77.64611131298112
+    },
+    "assets_dispatched": [
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      },
+      {
+        "type": "Water_Tender",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-03-19T01:23:00",
+    "access_level": "commander"
+  },
+  {
+    "id": "INC-0026",
+    "type": "Fire_Residential",
+    "priority": "P1",
+    "description": "Emergency incident at Marathahalli - Fire Residential",
+    "location": {
+      "name": "Marathahalli",
+      "lat": 12.959182097961778,
+      "lon": 77.69062509714126
+    },
+    "assets_dispatched": [
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      },
+      {
+        "type": "Water_Tender",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-02-03T23:16:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0027",
+    "type": "HazMat_GasLeak",
+    "priority": "P2",
+    "description": "Emergency incident at Indiranagar - HazMat GasLeak",
+    "location": {
+      "name": "Indiranagar",
+      "lat": 12.986632263244735,
+      "lon": 77.63243950655475
+    },
+    "assets_dispatched": [
+      {
+        "type": "HazMat_Team",
+        "quantity": 1
+      },
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      }
+    ],
+    "status": "active",
+    "timestamp": "2024-01-13T15:57:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0028",
+    "type": "Rescue_Building_Collapse",
+    "priority": "P1",
+    "description": "Emergency incident at Indiranagar - Rescue Building Collapse",
+    "location": {
+      "name": "Indiranagar",
+      "lat": 12.98801579834782,
+      "lon": 77.64282064388681
+    },
+    "assets_dispatched": [
+      {
+        "type": "NDRF_Team",
+        "quantity": 1
+      },
+      {
+        "type": "Ambulance",
+        "quantity": 1
+      },
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-10-19T07:59:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0029",
+    "type": "Fire_Residential",
+    "priority": "P1",
+    "description": "Emergency incident at HSR Layout - Fire Residential",
+    "location": {
+      "name": "HSR Layout",
+      "lat": 12.905630175349774,
+      "lon": 77.6487920987912
+    },
+    "assets_dispatched": [
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      },
+      {
+        "type": "Water_Tender",
+        "quantity": 1
+      }
+    ],
+    "status": "active",
+    "timestamp": "2024-05-02T11:08:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0030",
+    "type": "HazMat_GasLeak",
+    "priority": "P2",
+    "description": "Emergency incident at MG Road - HazMat GasLeak",
+    "location": {
+      "name": "MG Road",
+      "lat": 12.972646591984494,
+      "lon": 77.60538638580809
+    },
+    "assets_dispatched": [
+      {
+        "type": "HazMat_Team",
+        "quantity": 1
+      },
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-10-12T12:32:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0031",
+    "type": "Fire_Commercial",
+    "priority": "P1",
+    "description": "Emergency incident at Electronic City - Fire Commercial",
+    "location": {
+      "name": "Electronic City",
+      "lat": 12.8426325755354,
+      "lon": 77.67002215830966
+    },
+    "assets_dispatched": [
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      },
+      {
+        "type": "Water_Tender",
+        "quantity": 1
+      },
+      {
+        "type": "Ladder_Truck",
+        "quantity": 1
+      }
+    ],
+    "status": "active",
+    "timestamp": "2024-06-26T18:11:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0032",
+    "type": "Accident_Vehicle",
+    "priority": "P2",
+    "description": "Emergency incident at Marathahalli - Accident Vehicle",
+    "location": {
+      "name": "Marathahalli",
+      "lat": 12.968333240819614,
+      "lon": 77.70641366579835
+    },
+    "assets_dispatched": [
+      {
+        "type": "Ambulance",
+        "quantity": 1
+      },
+      {
+        "type": "Traffic_Police",
+        "quantity": 1
+      }
+    ],
+    "status": "active",
+    "timestamp": "2024-06-08T19:54:00",
+    "access_level": "commander"
+  },
+  {
+    "id": "INC-0033",
+    "type": "Accident_Vehicle",
+    "priority": "P2",
+    "description": "Emergency incident at Indiranagar - Accident Vehicle",
+    "location": {
+      "name": "Indiranagar",
+      "lat": 12.979807472927972,
+      "lon": 77.64794130545171
+    },
+    "assets_dispatched": [
+      {
+        "type": "Ambulance",
+        "quantity": 1
+      },
+      {
+        "type": "Traffic_Police",
+        "quantity": 1
+      }
+    ],
+    "status": "active",
+    "timestamp": "2024-04-09T06:28:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0034",
+    "type": "HazMat_GasLeak",
+    "priority": "P2",
+    "description": "Emergency incident at Indiranagar - HazMat GasLeak",
+    "location": {
+      "name": "Indiranagar",
+      "lat": 12.969629198599058,
+      "lon": 77.64172566388648
+    },
+    "assets_dispatched": [
+      {
+        "type": "HazMat_Team",
+        "quantity": 1
+      },
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-05-24T05:13:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0035",
+    "type": "Medical_CardiacArrest",
+    "priority": "P1",
+    "description": "Emergency incident at HSR Layout - Medical CardiacArrest",
+    "location": {
+      "name": "HSR Layout",
+      "lat": 12.907236446554831,
+      "lon": 77.6459763208783
+    },
+    "assets_dispatched": [
+      {
+        "type": "ALS_Ambulance",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-01-18T12:18:00",
+    "access_level": "commander"
+  },
+  {
+    "id": "INC-0036",
+    "type": "Medical_Trauma",
+    "priority": "P2",
+    "description": "Emergency incident at Marathahalli - Medical Trauma",
+    "location": {
+      "name": "Marathahalli",
+      "lat": 12.960951509956498,
+      "lon": 77.69292945992747
+    },
+    "assets_dispatched": [
+      {
+        "type": "BLS_Ambulance",
+        "quantity": 1
+      },
+      {
+        "type": "Trauma_Kit",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-01-18T14:03:00",
+    "access_level": "commander"
+  },
+  {
+    "id": "INC-0037",
+    "type": "Fire_Residential",
+    "priority": "P1",
+    "description": "Emergency incident at Indiranagar - Fire Residential",
+    "location": {
+      "name": "Indiranagar",
+      "lat": 12.968582673945606,
+      "lon": 77.63191552265602
+    },
+    "assets_dispatched": [
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      },
+      {
+        "type": "Water_Tender",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-07-13T08:25:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0038",
+    "type": "Medical_CardiacArrest",
+    "priority": "P1",
+    "description": "Emergency incident at Jayanagar - Medical CardiacArrest",
+    "location": {
+      "name": "Jayanagar",
+      "lat": 12.920738931063626,
+      "lon": 77.59999493777171
+    },
+    "assets_dispatched": [
+      {
+        "type": "ALS_Ambulance",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-04-13T20:11:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0039",
+    "type": "Medical_Trauma",
+    "priority": "P2",
+    "description": "Emergency incident at Koramangala - Medical Trauma",
+    "location": {
+      "name": "Koramangala",
+      "lat": 12.933455324042626,
+      "lon": 77.62594729462283
+    },
+    "assets_dispatched": [
+      {
+        "type": "BLS_Ambulance",
+        "quantity": 1
+      },
+      {
+        "type": "Trauma_Kit",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-01-13T13:29:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0040",
+    "type": "Medical_CardiacArrest",
+    "priority": "P1",
+    "description": "Emergency incident at Whitefield - Medical CardiacArrest",
+    "location": {
+      "name": "Whitefield",
+      "lat": 12.972321035642903,
+      "lon": 77.74994770483238
+    },
+    "assets_dispatched": [
+      {
+        "type": "ALS_Ambulance",
+        "quantity": 1
+      }
+    ],
+    "status": "active",
+    "timestamp": "2024-07-09T20:59:00",
+    "access_level": "commander"
+  },
+  {
+    "id": "INC-0041",
+    "type": "Fire_Commercial",
+    "priority": "P1",
+    "description": "Emergency incident at HSR Layout - Fire Commercial",
+    "location": {
+      "name": "HSR Layout",
+      "lat": 12.919285556486459,
+      "lon": 77.63386533052424
+    },
+    "assets_dispatched": [
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      },
+      {
+        "type": "Water_Tender",
+        "quantity": 1
+      },
+      {
+        "type": "Ladder_Truck",
+        "quantity": 1
+      }
+    ],
+    "status": "active",
+    "timestamp": "2024-03-20T11:51:00",
+    "access_level": "commander"
+  },
+  {
+    "id": "INC-0042",
+    "type": "Fire_Residential",
+    "priority": "P1",
+    "description": "Emergency incident at Marathahalli - Fire Residential",
+    "location": {
+      "name": "Marathahalli",
+      "lat": 12.952460925190653,
+      "lon": 77.69817137036013
+    },
+    "assets_dispatched": [
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      },
+      {
+        "type": "Water_Tender",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-06-13T17:42:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0043",
+    "type": "Accident_Pedestrian",
+    "priority": "P2",
+    "description": "Emergency incident at Koramangala - Accident Pedestrian",
+    "location": {
+      "name": "Koramangala",
+      "lat": 12.925263493457448,
+      "lon": 77.61772158058729
+    },
+    "assets_dispatched": [
+      {
+        "type": "Ambulance",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-03-05T13:41:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0044",
+    "type": "Medical_CardiacArrest",
+    "priority": "P1",
+    "description": "Emergency incident at HSR Layout - Medical CardiacArrest",
+    "location": {
+      "name": "HSR Layout",
+      "lat": 12.906297616911308,
+      "lon": 77.64717224716028
+    },
+    "assets_dispatched": [
+      {
+        "type": "ALS_Ambulance",
+        "quantity": 1
+      }
+    ],
+    "status": "active",
+    "timestamp": "2024-02-17T07:19:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0045",
+    "type": "Fire_Commercial",
+    "priority": "P1",
+    "description": "Emergency incident at Marathahalli - Fire Commercial",
+    "location": {
+      "name": "Marathahalli",
+      "lat": 12.955135247690938,
+      "lon": 77.6979360081041
+    },
+    "assets_dispatched": [
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      },
+      {
+        "type": "Water_Tender",
+        "quantity": 1
+      },
+      {
+        "type": "Ladder_Truck",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-08-05T14:19:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0046",
+    "type": "Accident_Pedestrian",
+    "priority": "P2",
+    "description": "Emergency incident at Electronic City - Accident Pedestrian",
+    "location": {
+      "name": "Electronic City",
+      "lat": 12.845548327067588,
+      "lon": 77.66083377506443
+    },
+    "assets_dispatched": [
+      {
+        "type": "Ambulance",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-08-28T08:10:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0047",
+    "type": "HazMat_GasLeak",
+    "priority": "P2",
+    "description": "Emergency incident at Whitefield - HazMat GasLeak",
+    "location": {
+      "name": "Whitefield",
+      "lat": 12.978965477759564,
+      "lon": 77.74567352101356
+    },
+    "assets_dispatched": [
+      {
+        "type": "HazMat_Team",
+        "quantity": 1
+      },
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-06-16T23:43:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0048",
+    "type": "Medical_Trauma",
+    "priority": "P2",
+    "description": "Emergency incident at Whitefield - Medical Trauma",
+    "location": {
+      "name": "Whitefield",
+      "lat": 12.96634265444126,
+      "lon": 77.75523594673953
+    },
+    "assets_dispatched": [
+      {
+        "type": "BLS_Ambulance",
+        "quantity": 1
+      },
+      {
+        "type": "Trauma_Kit",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-09-18T11:27:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0049",
+    "type": "Fire_Residential",
+    "priority": "P1",
+    "description": "Emergency incident at Koramangala - Fire Residential",
+    "location": {
+      "name": "Koramangala",
+      "lat": 12.939617750628608,
+      "lon": 77.63264804825157
+    },
+    "assets_dispatched": [
+      {
+        "type": "Fire_Truck",
+        "quantity": 1
+      },
+      {
+        "type": "Water_Tender",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-04-25T13:10:00",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "INC-0050",
+    "type": "Medical_Trauma",
+    "priority": "P2",
+    "description": "Emergency incident at Whitefield - Medical Trauma",
+    "location": {
+      "name": "Whitefield",
+      "lat": 12.978263231817069,
+      "lon": 77.74606935778819
+    },
+    "assets_dispatched": [
+      {
+        "type": "BLS_Ambulance",
+        "quantity": 1
+      },
+      {
+        "type": "Trauma_Kit",
+        "quantity": 1
+      }
+    ],
+    "status": "resolved",
+    "timestamp": "2024-07-18T07:51:00",
+    "access_level": "dispatcher"
+  }
+]

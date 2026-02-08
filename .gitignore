@@ -1,0 +1,65 @@
+# Dependencies
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+.eggs/
+*.egg-info/
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Build
+dist/
+build/
+*.whl
+
+# Node (Frontend)
+node_modules/
+frontend/dist/
+frontend/build/
+.npm
+
+# Data (large files)
+data/osm/*.pbf
+data/osm/*.geojson
+data/images/*.jpg
+data/images/*.png
+models/*.bin
+models/*.pt
+*.onnx
+
+# Docker
+*.tar
+
+# Secrets
+*.pem
+*.key
+secrets/
+
+Disaster_Dataset/

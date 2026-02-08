@@ -1,0 +1,386 @@
+{
+  "document_id": "IUERS-SOP-PART-2",
+  "document_title": "Indian Emergency Response System - Medical Emergency SOPs",
+  "version": "2.0",
+  "last_updated": "2026-01-18",
+  
+  "medical_emergency_sops": [
+    {
+      "sop_id": "SOP-MED-001",
+      "title": "Cardiac Emergency (Heart Attack / Cardiac Arrest)",
+      "category": "Medical Emergency",
+      "subcategory": "Cardiac",
+      "keywords": ["heart attack", "chest pain", "cardiac arrest", "myocardial infarction", "STEMI", "dil ka daura", "seene mein dard", "heart failure"],
+      
+      "priority_determination": {
+        "assign_P1_if": [
+          "Cardiac arrest (unconscious, not breathing, no pulse)",
+          "Chest pain with loss of consciousness",
+          "STEMI symptoms (severe crushing central chest pain with radiation)",
+          "Severe chest pain radiating to left arm/jaw with profuse sweating (diaphoresis)",
+          "Age >60 years with acute chest pain and breathlessness",
+          "Witnessed cardiac arrest by caller",
+          "Known cardiac patient with sudden deterioration"
+        ],
+        "assign_P2_if": [
+          "Moderate chest pain with stable vital signs",
+          "History of heart disease with new discomfort or angina",
+          "Angina attack partially relieved by nitroglycerin",
+          "Palpitations with chest discomfort",
+          "Chest pain in high-risk patient (diabetic, smoker, family history)"
+        ],
+        "assign_P3_if": [
+          "Mild chest discomfort that has resolved before call",
+          "Anxiety-related chest tightness without cardiac features",
+          "Stable chronic cardiac symptoms with no new changes"
+        ]
+      },
+
+      "required_assets": {
+        "P1_resources": [
+          "Advanced Life Support (ALS) ambulance with cardiac monitor and defibrillator",
+          "Paramedic team trained in ACLS (Advanced Cardiac Life Support) and BLS",
+          "12-lead ECG machine with transmission capability",
+          "Cardiac drug kit: Aspirin, Clopidogrel, Atorvastatin, Nitroglycerin, Morphine, Epinephrine, Amiodarone",
+          "Thrombolytic agents if protocol permits",
+          "Mechanical CPR device (LUCAS/AutoPulse) if available",
+          "Police escort for green corridor in heavy traffic"
+        ],
+        "P2_resources": [
+          "Basic Life Support (BLS) ambulance",
+          "EMT with CPR certification",
+          "Oxygen, portable pulse oximeter, BP apparatus",
+          "Basic cardiac drugs (Aspirin, Nitroglycerin)"
+        ],
+        "P3_resources": [
+          "BLS ambulance",
+          "EMT for evaluation and transport"
+        ]
+      },
+
+      "response_protocol_steps": [
+        {
+          "step": 1,
+          "phase": "Call Assessment - OPQRST Method",
+          "action": "Systematic Cardiac Symptom Evaluation",
+          "critical_questions": {
+            "O_Onset": "When did the pain start? Was it sudden or gradual? What were you doing when it started?",
+            "P_Provocation": "What triggered it? Were you at rest or exerting? Does anything make it better or worse?",
+            "Q_Quality": "Describe the pain. Is it crushing, stabbing, pressure, burning, tightness, or heaviness?",
+            "R_Region_Radiation": "Where exactly is the pain? Does it spread anywhere (arms, jaw, back, neck)?",
+            "S_Severity": "On a scale of 1-10, how bad is the pain? (10 being worst pain ever)",
+            "T_Time": "How long has this been going on? Is it constant or does it come and go?"
+          },
+          "vital_information": [
+            "Is patient conscious and able to speak?",
+            "Is patient breathing normally?",
+            "Is chest pain present RIGHT NOW?",
+            "Known history of heart disease, diabetes, hypertension?",
+            "Current medications (especially blood thinners, heart medications)?",
+            "Is aspirin available at home?",
+            "Patient age and gender",
+            "Allergies to medications"
+          ],
+          "red_flags_immediate_P1": [
+            "Patient unresponsive or losing consciousness",
+            "Not breathing or gasping",
+            "Severe pain 8-10/10",
+            "Cold, clammy, sweaty skin",
+            "Shortness of breath even at rest",
+            "Bluish discoloration of lips or face"
+          ]
+        },
+        {
+          "step": 2,
+          "phase": "Pre-Arrival Instructions - Critical Life-Saving Guidance",
+          "action": "Dispatcher-Assisted CPR and First Aid",
+          "if_cardiac_arrest": {
+            "recognition": "Unconscious AND not breathing normally (gasping doesn't count as breathing)",
+            "immediate_instructions": [
+              "This is an emergency. I need you to start CPR right now while help is coming.",
+              "Lay the patient FLAT on a HARD surface - the floor, not a bed.",
+              "Place the heel of one hand in the CENTER of the chest, between the nipples.",
+              "Place your other hand on top and interlock your fingers.",
+              "Push HARD and FAST straight down - compress the chest about 2 inches (5cm).",
+              "Push at a rate of 100-120 per minute - count out loud: 1, 2, 3...up to 30.",
+              "After 30 compressions, give 2 rescue breaths: Tilt head back, pinch nose, cover mouth completely, breathe in until you see chest rise.",
+              "Continue this cycle: 30 compressions, 2 breaths. Keep going until ambulance arrives.",
+              "DO NOT STOP CPR unless the person starts breathing normally or moving.",
+              "If an AED (Automated External Defibrillator) is available, turn it on and follow its voice prompts."
+            ],
+            "dispatcher_role": "Stay on the line, provide encouragement, count with them if needed, reassure that help is coming"
+          },
+          "if_conscious_with_chest_pain": {
+            "immediate_instructions": [
+              "Keep the patient calm. Have them sit down or lie down in a comfortable position - semi-reclined is often best.",
+              "Loosen any tight clothing around the neck, chest, or waist.",
+              "If ASPIRIN is available and patient is NOT allergic: Give 325mg (adult regular aspirin). Have them CHEW it, don't swallow whole. This is very important.",
+              "Do NOT give any food or water to eat or drink.",
+              "Note the EXACT TIME the chest pain started - this is crucial for treatment decisions.",
+              "If the patient has been prescribed nitroglycerin tablets for angina, give ONE tablet under the tongue.",
+              "Open all doors so the ambulance crew can enter quickly.",
+              "Stay with the patient and keep them calm."
+            ],
+            "what_NOT_to_do": [
+              "Don't let patient walk or exert themselves",
+              "Don't drive to hospital yourself if severe pain - wait for ambulance",
+              "Don't give multiple nitroglycerin doses without medical guidance",
+              "Don't give aspirin if allergic or recent bleeding"
+            ]
+          }
+        },
+        {
+          "step": 3,
+          "phase": "Dispatch and Hospital Pre-Alert",
+          "action": "Time-Critical Coordination",
+          "dispatch_actions": [
+            "Dispatch nearest ALS ambulance IMMEDIATELY - every minute counts in cardiac emergencies",
+            "Simultaneously alert nearest PCI-capable hospital (hospital with emergency angioplasty facility)",
+            "Hospital notification: 'Incoming probable STEMI/cardiac arrest patient. ETA X minutes. Please activate cath lab and alert cardiologist on call.'",
+            "If patient location is in rural area >90 minutes from PCI center: Alert district hospital with CCU (Cardiac Care Unit) for possible thrombolysis",
+            "Check availability of air ambulance if remote location or if transfer to tertiary center needed",
+            "Notify traffic police for green corridor activation if rush hour"
+          ],
+          "golden_hour_concept": "In STEMI (heart attack), 'time is muscle' - every 30-minute delay in treatment increases 1-year mortality by 7.5%. Speed is absolutely critical."
+        },
+        {
+          "step": 4,
+          "phase": "On-Scene Assessment and Immediate Treatment",
+          "action": "Paramedic Initial Management",
+          "primary_survey_ABCDE": {
+            "A_Airway": "Ensure airway is open and clear",
+            "B_Breathing": "Assess breathing rate, depth, effort. Listen to lung sounds.",
+            "C_Circulation": "Check pulse (rate, rhythm, strength), blood pressure, skin color and temperature",
+            "D_Disability": "Check consciousness level (AVPU: Alert, Voice, Pain, Unresponsive), check pupils",
+            "E_Exposure": "Expose chest to check for breathing, attach monitoring equipment"
+          },
+          "vital_signs_rapid": [
+            "Heart rate and rhythm",
+            "Blood pressure",
+            "Oxygen saturation (SpO2) - should be >94%",
+            "Respiratory rate",
+            "Temperature",
+            "Blood glucose (if diabetic)"
+          ],
+          "immediate_interventions": [
+            "Attach cardiac monitor for continuous ECG monitoring",
+            "Acquire 12-lead ECG within 10 minutes of arrival (transmit to hospital if telemedicine available)",
+            "Establish IV access (18-gauge cannula in forearm)",
+            "Oxygen via face mask if SpO2 <94% - target 94-98% (NOT 100% - hyperoxia can be harmful)",
+            "Aspirin 325mg (if not already given) - patient must CHEW it for rapid absorption",
+            "Atorvastatin 80mg orally",
+            "Clopidogrel 300mg orally (if STEMI confirmed)",
+            "Sublingual Nitroglycerin 0.4mg (only if systolic BP >100 mmHg) - can repeat every 5 minutes up to 3 doses",
+            "Morphine 2-4mg IV for severe pain (only if BP adequate)",
+            "Document EXACT time of symptom onset - this determines eligibility for interventions"
+          ],
+          "critical_decision": "Based on 12-lead ECG, determine if STEMI (ST-segment elevation) present. If yes, immediate PCI or thrombolysis needed within minutes."
+        },
+        {
+          "step": 5,
+          "phase": "Cardiac Arrest - Advanced Resuscitation",
+          "action": "ACLS Protocol Implementation",
+          "if_patient_in_cardiac_arrest": {
+            "immediate_actions": [
+              "Ensure high-quality CPR is ongoing - minimize interruptions",
+              "Check cardiac rhythm on monitor every 2 minutes",
+              "Rhythm classification: Shockable (VF/pulseless VT) or Non-shockable (PEA/Asystole)"
+            ],
+            "if_shockable_rhythm": [
+              "Defibrillate immediately - 150-200 Joules (biphasic defibrillator)",
+              "Resume CPR immediately after shock for 2 minutes - don't check pulse",
+              "After 2 minutes, check rhythm again",
+              "If still VF/VT, shock again and continue CPR",
+              "Give Epinephrine 1mg IV after second shock, then every 3-5 minutes",
+              "Give Amiodarone 300mg IV after third shock if VF/VT persists"
+            ],
+            "if_non_shockable_rhythm": [
+              "Continue high-quality CPR",
+              "Give Epinephrine 1mg IV immediately, then every 3-5 minutes",
+              "Search for and treat reversible causes"
+            ],
+            "reversible_causes_5Hs_5Ts": {
+              "Hs": ["Hypoxia (give oxygen)", "Hypovolemia (give fluids)", "Hyper/Hypokalemia (check labs if possible)", "Hypothermia (warm patient)", "H+ Acidosis (hyperventilate)"],
+              "Ts": ["Tension pneumothorax (needle decompression)", "Tamponade cardiac (pericardiocentesis)", "Toxins (antidotes if known)", "Thrombosis pulmonary (consider thrombolytics)", "Thrombosis coronary (this is the heart attack causing arrest)"]
+            },
+            "mechanical_CPR": "If LUCAS or AutoPulse device available and team trained, deploy it to provide consistent high-quality compressions",
+            "transport_decision": "Transport with ongoing CPR only if hospital is <10 minutes away AND quality CPR can be maintained. Otherwise continue resuscitation on scene.",
+            "termination_of_resuscitation": "Consider termination only after 20+ minutes of good quality CPR with no ROSC (Return of Spontaneous Circulation), asystole on monitor, no reversible causes identified. Decision by senior paramedic/physician."
+          }
+        },
+        {
+          "step": 6,
+          "phase": "Rapid Transport with Continuous Care",
+          "action": "Time-Critical Transfer",
+          "transport_priorities": {
+            "time_goal": "Minimize on-scene time to <10 minutes for P1 cardiac patients",
+            "continuous_monitoring": ["ECG on monitor throughout", "Vital signs every 5 minutes", "Oxygen saturation", "Level of consciousness", "Pain level reassessment"],
+            "communication": [
+              "Update receiving hospital with patient status and ETA",
+              "If STEMI confirmed and 12-lead ECG not previously transmitted, send it now",
+              "Request cath lab activation for STEMI cases",
+              "Alert for cardiogenic shock (low BP, cold skin, altered mental status) - may need IABP (intra-aortic balloon pump) or mechanical support"
+            ],
+            "destination_decision": [
+              "For STEMI: Bypass non-PCI hospitals if PCI-capable center reachable within 30 additional minutes",
+              "For cardiac arrest with ROSC: Nearest appropriate hospital with ICU",
+              "For cardiogenic shock: Tertiary center with mechanical support capability if possible"
+            ],
+            "keep_patient_NPO": "Nothing by mouth - patient may need emergency cardiac catheterization or surgery"
+          }
+        },
+        {
+          "step": 7,
+          "phase": "Hospital Handover - MIST Format",
+          "action": "Structured Clinical Handover",
+          "MIST_format": {
+            "M_Mechanism": "Cardiac event - specify STEMI/NSTEMI/Unstable angina/Cardiac arrest",
+            "I_Injuries_Illness": "Patient symptoms, cardiac history, risk factors (diabetes, hypertension, smoking, family history, age), current medications",
+            "S_Signs": "Vital signs throughout (initial, en-route, current), 12-lead ECG findings (ST elevation/depression, T wave changes, Q waves), physical exam findings, response to treatments given",
+            "T_Treatment": "All medications administered with exact times and doses, CPR duration if applicable, number of defibrillations and energy levels, IV access established, procedures performed"
+          },
+          "critical_data_point": "Time of symptom onset - this is THE most important piece of information for treatment decision-making (thrombolysis window is 12 hours, but benefit decreases with time)",
+          "documentation": [
+            "Provide physical copy of pre-hospital 12-lead ECG strip",
+            "Patient care report with detailed timeline",
+            "Hand over patient directly to cardiologist or emergency physician",
+            "Ensure family knows where patient is and hospital contact information"
+          ]
+        }
+      ],
+
+      "time_critical_targets": {
+        "benchmarks": {
+          "first_medical_contact_to_ECG": "<10 minutes",
+          "ECG_acquisition_to_hospital_alert": "<5 minutes",
+          "door_to_balloon_PCI": "<90 minutes from first medical contact",
+          "door_to_needle_thrombolysis": "<30 minutes from hospital arrival",
+          "CPR_initiation": "<4 minutes from cardiac arrest",
+          "defibrillation": "<5 minutes from cardiac arrest recognition"
+        },
+        "rationale": "In STEMI, every 30-minute delay in revascularization increases 1-year mortality by 7.5%. Early thrombolysis (within first hour - 'golden hour') can abort myocardial infarction and prevent heart muscle death.",
+        "system_performance": "Track and report these metrics monthly for quality improvement"
+      },
+
+      "escalation_triggers": [
+        {
+          "condition": "Refractory cardiac arrest (>20 minutes of CPR with no ROSC)",
+          "action": "Consider ECMO (extracorporeal membrane oxygenation) if tertiary center with ECMO capability is reachable",
+          "notification": "Alert tertiary center ECMO team, arrange rapid transport or helicopter"
+        },
+        {
+          "condition": "Cardiogenic shock (systolic BP <90, cold clammy skin, altered mental status, reduced urine output)",
+          "action": "Alert for intra-aortic balloon pump (IABP) or other mechanical circulatory support",
+          "notification": "Tertiary cardiac center with interventional cardiology and cardiac surgery backup"
+        },
+        {
+          "condition": "Rural location with no PCI facility within 90 minutes",
+          "action": "Consider pre-hospital thrombolysis if: trained paramedic available, telephonic cardiologist guidance possible, <12 hours from symptom onset, no contraindications",
+          "notification": "Cardiologist via telemedicine, nearest PCI center for possible rescue PCI if thrombolysis fails"
+        },
+        {
+          "condition": "Multiple cardiac arrests (mass event - wedding, marathon, heat wave)",
+          "action": "Activate Mass Casualty Incident protocol, request all available ALS ambulances",
+          "notification": "Regional EMS coordinator, mutual aid from neighboring districts, alert all hospitals"
+        },
+        {
+          "condition": "VIP or celebrity patient",
+          "action": "Maintain same clinical standards, but prepare for media and security concerns",
+          "notification": "Senior hospital administration, hospital PR/media cell, additional security"
+        }
+      ],
+
+      "india_specific_considerations": [
+        {
+          "factor": "Cost and Affordability",
+          "challenge": "Primary PCI (angioplasty with stenting) costs ₹2-3 lakhs in private hospitals, which many Indians cannot afford",
+          "solution": "Discuss thrombolysis (clot-busting medication) as effective alternative - costs only ₹15,000-25,000. Effective if given within 12 hours of symptom onset. Many government hospitals provide free or subsidized care under Ayushman Bharat or state health schemes. Verify eligibility."
+        },
+        {
+          "factor": "Family Decision-Making Culture",
+          "challenge": "In Indian culture, major medical decisions often involve entire family consultation. Family members may want to discuss before consenting to procedures.",
+          "approach": "While respecting family involvement, clearly explain that for P1 cardiac emergencies (STEMI, cardiac arrest), immediate treatment is life-saving and cannot be delayed. Use phrases like 'Every minute of delay means more heart muscle dying' to emphasize urgency. Get verbal consent and proceed - document discussion."
+        },
+        {
+          "factor": "Traffic Congestion in Cities",
+          "challenge": "Major metros (Delhi, Mumbai, Bangalore, Chennai, Kolkata) have severe traffic congestion that can delay ambulance response and transport",
+          "solutions": [
+            "Use police escort or green corridor (traffic police clear route)",
+            "GPS navigation with real-time traffic for alternate routes",
+            "Motorcycle first responders to reach patient quickly",
+            "Public awareness campaigns for 'Give way to ambulance' (though compliance remains low)"
+          ]
+        },
+        {
+          "factor": "Rural-Urban Healthcare Divide",
+          "reality": "65% of India's population lives in rural areas, many villages lack ambulances or have only basic ambulances without cardiac monitoring",
+          "innovations": [
+            "Bike ambulances with paramedics and defibrillators",
+            "Dial-a-Doctor telemedicine schemes",
+            "Community first responder programs - train villagers in CPR",
+            "Use of drones for emergency medication delivery (pilot programs)",
+            "Mobile health units for preventive care"
+          ]
+        },
+        {
+          "factor": "Language Barriers",
+          "challenge": "India has 22 official languages and hundreds of dialects. Patient may not speak Hindi or English.",
+          "solutions": "EMTs must know local language of their region or have access to translation apps/cards. Use visual pain scales (faces showing pain levels) instead of numerical scales. Learn key medical phrases in major languages of the region."
+        },
+        {
+          "factor": "Traditional Medicine Interactions",
+          "concern": "Many Indians use Ayurvedic, Unani, or herbal medicines. Some may increase bleeding risk when combined with blood thinners or thrombolytics.",
+          "protocol": "Always ask 'Are you taking any Ayurvedic medicines, herbal supplements, or seeing a vaid/hakim?' Document all medications. If thrombolysis planned, inform physician about all substances patient is taking."
+        },
+        {
+          "factor": "Late Presentation",
+          "pattern": "Many cardiac patients present late (>6-12 hours after symptom onset) because they first try home remedies (ginger tea, ajwain, saunf) or wait to see if pain resolves",
+          "education": "Public awareness campaigns needed about 'golden hour', recognizing heart attack symptoms, calling 112/102 immediately. Community health workers to educate about cardiac risk factors."
+        },
+        {
+          "factor": "Gender Disparities",
+          "issue": "Women with cardiac symptoms often underreport or minimize symptoms. Families may delay seeking treatment for female patients. Women also present with atypical symptoms more often (fatigue, nausea, back pain without classic chest pain).",
+          "approach": "High index of suspicion for cardiac disease in women with risk factors. Ensure equal treatment priority. May need female paramedic for examination in conservative communities. Educate that heart disease kills women too."
+        },
+        {
+          "factor": "Diabetes Epidemic",
+          "context": "India is the 'diabetes capital' with 77+ million diabetics. Diabetic patients often have 'silent' heart attacks without typical chest pain (neuropathy reduces pain sensation).",
+          "clinical_impact": "Any diabetic patient with unexplained breathlessness, weakness, nausea, or vague discomfort should be evaluated for cardiac ischemia with 12-lead ECG. Lower threshold for cardiac workup in diabetics."
+        },
+        {
+          "factor": "Young Age Myocardial Infarctions",
+          "trend": "Increasing incidence of heart attacks in young Indians (30-40 years) due to sedentary lifestyle, stress, smoking, obesity, metabolic syndrome",
+          "clinical_implication": "Don't dismiss chest pain in young patients thinking 'too young for heart attack'. Obtain ECG, take symptoms seriously. Preventive cardiology and lifestyle modification counseling essential."
+        },
+        {
+          "factor": "Regional Variations in Disease Burden",
+          "pattern": "North India (Punjab, Haryana, Delhi) has higher rates of coronary artery disease, attributed to diet high in saturated fats (ghee, butter), less physical activity",
+          "public_health": "Regional prevention strategies needed. South India has higher diabetes rates affecting cardiac outcomes."
+        },
+        {
+          "factor": "Insurance and Payment Systems",
+          "complexity": "Verify if patient eligible for Ayushman Bharat (PM-JAY) covering 10 crore poor families, or state schemes (YSR Aarogyasri in AP, Kalaignar Insurance in TN). Most government hospitals provide free emergency cardiac care. Some corporate hospitals have direct cashless facility with PMJAY.",
+          "practical": "Don't delay treatment for payment discussions in emergency - stabilize first, financial counselor handles payment later"
+        }
+      ],
+
+      "contraindications_to_be_aware": {
+        "aspirin_contraindications": ["Known aspirin allergy", "Active peptic ulcer bleeding", "Severe bleeding disorder"],
+        "nitroglycerin_contraindications": ["Systolic BP <90 mmHg", "Recent use of phosphodiesterase inhibitors (Viagra/Cialis - within 24-48 hours)", "Right ventricular infarction", "Severe aortic stenosis"],
+        "thrombolysis_absolute_contraindications": ["Active bleeding", "Recent surgery <3 weeks", "History of hemorrhagic stroke", "Known bleeding disorder", "Suspected aortic dissection"],
+        "morphine_contraindications": ["Respiratory depression", "Known allergy", "Hypotension"]
+      },
+
+      "post_incident_requirements": [
+        "Complete patient care report within 4 hours",
+        "Document all times (symptom onset, call received, dispatch, arrival on scene, key interventions, hospital arrival)",
+        "12-lead ECG strips attached to report",
+        "If cardiac arrest, detailed code sheet with timeline of events",
+        "Quality assurance review of time benchmarks",
+        "If poor outcome, case review for learning opportunities",
+        "Equipment check and restock - prepare for next call",
+        "Critical incident stress debriefing if indicated"
+      ]
+    }
+  ]
+}

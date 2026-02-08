@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Sharma General Store",
+    "alt_names": [
+      "Sharma Shop",
+      "Sharmaji Kirana"
+    ],
+    "type": "shop",
+    "lat": 12.9758,
+    "lon": 77.6045
+  },
+  {
+    "name": "Lakshmi Temple",
+    "alt_names": [
+      "Lakshmi Devi Temple"
+    ],
+    "type": "temple",
+    "lat": 12.9345,
+    "lon": 77.6123
+  },
+  {
+    "name": "Forum Mall",
+    "alt_names": [
+      "Forum Value Mall"
+    ],
+    "type": "mall",
+    "lat": 12.9342,
+    "lon": 77.6101
+  },
+  {
+    "name": "Indiranagar Metro Station",
+    "alt_names": [
+      "Indiranagar Metro"
+    ],
+    "type": "transit",
+    "lat": 12.9784,
+    "lon": 77.6408
+  },
+  {
+    "name": "Sony Signal",
+    "alt_names": [
+      "Sony World Junction"
+    ],
+    "type": "junction",
+    "lat": 12.935,
+    "lon": 77.612
+  },
+  {
+    "name": "Domlur Flyover",
+    "alt_names": [
+      "Domlur Bridge"
+    ],
+    "type": "infrastructure",
+    "lat": 12.961,
+    "lon": 77.638
+  },
+  {
+    "name": "CMH Road",
+    "alt_names": [
+      "Cambridge Layout Main Road"
+    ],
+    "type": "road",
+    "lat": 12.9783,
+    "lon": 77.6372
+  },
+  {
+    "name": "Koramangala Water Tank",
+    "alt_names": [
+      "Tank Bund"
+    ],
+    "type": "landmark",
+    "lat": 12.935,
+    "lon": 77.622
+  },
+  {
+    "name": "Christ University",
+    "alt_names": [
+      "Christ College"
+    ],
+    "type": "education",
+    "lat": 12.936,
+    "lon": 77.605
+  },
+  {
+    "name": "Manipal Hospital",
+    "alt_names": [
+      "Manipal",
+      "HAL Airport Road Hospital"
+    ],
+    "type": "hospital",
+    "lat": 12.958,
+    "lon": 77.647
+  },
+  {
+    "name": "St. John's Hospital",
+    "alt_names": [
+      "St Johns"
+    ],
+    "type": "hospital",
+    "lat": 12.928,
+    "lon": 77.621
+  },
+  {
+    "name": "Cubbon Park",
+    "alt_names": [
+      "Cubbon"
+    ],
+    "type": "park",
+    "lat": 12.9763,
+    "lon": 77.5929
+  }
+]

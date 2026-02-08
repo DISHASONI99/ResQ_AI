@@ -1,0 +1,482 @@
+{
+  "document_id": "IUERS-SOP-PART-1",
+  "document_title": "Indian Emergency Response System - Fire Emergency SOPs",
+  "version": "2.0",
+  "last_updated": "2026-01-18",
+  
+  "system_metadata": {
+    "system_name": "Indian Unified Emergency Response System (IUERS)",
+    "jurisdiction": "Republic of India - All States and Union Territories",
+    "compliance_framework": [
+      "Disaster Management Act 2005",
+      "NDMA Guidelines 2022",
+      "Motor Vehicles Act 1988",
+      "Indian Penal Code 1860",
+      "State Fire Services Acts",
+      "Good Samaritan Law 2016",
+      "National Building Code 2016"
+    ],
+    "emergency_numbers": {
+      "unified_emergency": "112",
+      "police": "100",
+      "fire": "101",
+      "ambulance": "102",
+      "disaster_management": "108",
+      "women_helpline": "1091",
+      "child_helpline": "1098",
+      "senior_citizen": "14567",
+      "mental_health": "9152987821",
+      "railway": "139",
+      "highway": "1033",
+      "coastal_guard": "1554",
+      "air_ambulance": "9540161344",
+      "electricity_fault": "1912",
+      "gas_leak": "1906"
+    },
+    "response_time_standards": {
+      "metro_cities": {
+        "P1": "4-8 minutes",
+        "P2": "10-15 minutes",
+        "P3": "20-30 minutes",
+        "P4": "1-2 hours"
+      },
+      "tier2_cities": {
+        "P1": "8-12 minutes",
+        "P2": "15-20 minutes",
+        "P3": "30-45 minutes",
+        "P4": "2-3 hours"
+      },
+      "rural_areas": {
+        "P1": "15-25 minutes",
+        "P2": "30-45 minutes",
+        "P3": "1-2 hours",
+        "P4": "4-6 hours"
+      },
+      "remote_hilly_tribal": {
+        "P1": "30-60 minutes",
+        "P2": "1-2 hours",
+        "P3": "2-4 hours",
+        "P4": "6-12 hours"
+      }
+    }
+  },
+
+  "priority_classification": {
+    "P1_CRITICAL": {
+      "label": "Critical - Life Threatening",
+      "color_code": "RED",
+      "dispatch_protocol": "IMMEDIATE - All available units",
+      "supervisor_notification": "MANDATORY - Immediate",
+      "hospital_pre_alert": "YES - Before departure",
+      "response_time_urban": "4-8 minutes",
+      "response_time_rural": "15-25 minutes",
+      "description": "Immediate threat to life or major property. Highest resource priority. Multi-agency response.",
+      "criteria": [
+        "Persons trapped or in immediate danger",
+        "Cardiac arrest or unconscious person",
+        "Severe bleeding or major trauma",
+        "Active crime with weapons",
+        "Building collapse or structural failure",
+        "Mass casualty incidents",
+        "High-rise fires",
+        "Chemical/hazmat emergencies"
+      ]
+    },
+    "P2_URGENT": {
+      "label": "Urgent - Serious",
+      "color_code": "YELLOW",
+      "dispatch_protocol": "RAPID - Standard units",
+      "supervisor_notification": "As soon as practical",
+      "hospital_pre_alert": "If deteriorating",
+      "response_time_urban": "10-15 minutes",
+      "response_time_rural": "30-45 minutes",
+      "description": "Serious situation requiring prompt response but not immediately life-threatening",
+      "criteria": [
+        "Chest pain with stable vitals",
+        "Moderate fires with no entrapment",
+        "Serious assault (suspect fled)",
+        "Vehicle accidents with injuries",
+        "Breathing difficulties",
+        "Fractures or moderate trauma"
+      ]
+    },
+    "P3_PRIORITY": {
+      "label": "Priority - Non-Emergency Urgent",
+      "color_code": "GREEN",
+      "dispatch_protocol": "SCHEDULED - As units available",
+      "supervisor_notification": "Routine report",
+      "hospital_pre_alert": "Not required",
+      "response_time_urban": "20-30 minutes",
+      "response_time_rural": "1-2 hours",
+      "description": "Important but not critical, can be scheduled without immediate danger",
+      "criteria": [
+        "Minor injuries or illnesses",
+        "Small contained fires",
+        "Property crimes (no suspect)",
+        "Minor vehicle accidents",
+        "Non-emergency transfers"
+      ]
+    },
+    "P4_ROUTINE": {
+      "label": "Routine - Non-Urgent",
+      "color_code": "BLUE",
+      "dispatch_protocol": "ROUTINE - Next available",
+      "supervisor_notification": "Daily summary",
+      "hospital_pre_alert": "Not applicable",
+      "response_time_urban": "1-2 hours",
+      "response_time_rural": "4-6 hours",
+      "description": "Non-emergency routine services and administrative matters",
+      "criteria": [
+        "Document requests",
+        "Scheduled inspections",
+        "Non-emergency complaints",
+        "Information requests",
+        "Routine follow-ups"
+      ]
+    }
+  },
+
+  "fire_emergency_sops": [
+    {
+      "sop_id": "SOP-FIRE-001",
+      "title": "Residential Building Fire",
+      "category": "Fire Emergency",
+      "subcategory": "Residential",
+      "version": "2.0",
+      "keywords": ["house fire", "apartment fire", "flat fire", "residential blaze", "ghar mein aag", "building fire", "home fire"],
+      
+      "priority_determination": {
+        "assign_P1_if": [
+          "Persons reported trapped inside",
+          "High-rise building (>4 floors)",
+          "Children or elderly persons trapped",
+          "LPG cylinder explosion reported or imminent",
+          "Fire spreading rapidly to adjacent structures",
+          "Slum or informal settlement fire",
+          "Night-time fire with occupants inside",
+          "Persons jumping from windows"
+        ],
+        "assign_P2_if": [
+          "Ground or first floor fire with occupants safely evacuated",
+          "Electrical fire with power not yet cut off",
+          "Heavy smoke but no visible flames",
+          "Fire in congested residential area",
+          "Balcony fire in multi-story building"
+        ],
+        "assign_P3_if": [
+          "Small kitchen fire contained to single room",
+          "Fire contained and controlled by occupants",
+          "All occupants evacuated safely",
+          "Minor electrical short circuit without flames"
+        ]
+      },
+
+      "required_assets": {
+        "P1_resources": [
+          "2-3 Fire tenders minimum (1 water tender + 1 ladder tender)",
+          "Advanced Life Support ambulance with paramedics",
+          "Police team for crowd control and area security",
+          "Rapid Response Vehicle (RRV)",
+          "Emergency Rescue Tender if high-rise",
+          "Self-Contained Breathing Apparatus (SCBA) team",
+          "Hydraulic rescue tools if needed"
+        ],
+        "P2_resources": [
+          "1-2 Fire tenders",
+          "Basic Life Support ambulance on standby",
+          "Police patrol vehicle for traffic management"
+        ],
+        "P3_resources": [
+          "1 Fire tender",
+          "Ambulance on-call basis"
+        ]
+      },
+
+      "response_protocol_steps": [
+        {
+          "step": 1,
+          "phase": "Call Reception & Information Gathering",
+          "action": "Rapid Assessment Protocol",
+          "critical_questions": [
+            "Exact location with landmark (street name, building name, flat number)",
+            "Source of fire (electrical/LPG/cooking/unknown)",
+            "Are people trapped? If yes, how many and where?",
+            "Building type (pucca/kutcha/high-rise/chawl/slum)",
+            "Access constraints (narrow lanes/blocked roads)",
+            "Nearby hazards (petrol pump, hospital, school, factory)",
+            "Caller's location and safety"
+          ],
+          "dispatcher_actions": [
+            "Immediately classify priority (P1/P2/P3)",
+            "Start call timer for response tracking",
+            "Activate location services/GPS if mobile call",
+            "Keep caller on line for updates"
+          ]
+        },
+        {
+          "step": 2,
+          "phase": "Immediate Dispatch",
+          "action": "Multi-Agency Alert System",
+          "dispatch_sequence": [
+            "Alert nearest fire station - dispatch appropriate units per priority",
+            "Notify police control room for traffic clearance and crowd control",
+            "Alert ambulance service (dispatch immediately for P1, standby for P2)",
+            "If slum fire - immediately request 2-3 additional fire tenders",
+            "Notify senior fire officer if P1 incident",
+            "Alert electricity board for power cutoff"
+          ],
+          "communication_protocol": "Use standardized fire dispatch codes. Provide: Location, Type of fire, Priority level, Trapped persons status, Special hazards"
+        },
+        {
+          "step": 3,
+          "phase": "Pre-Arrival Instructions to Caller",
+          "action": "Life-Saving Guidance",
+          "critical_instructions": [
+            "EVACUATE IMMEDIATELY - Do not stop to collect belongings",
+            "STAY LOW - Smoke rises, breathe near floor level",
+            "CLOSE DOORS - Close doors behind you to slow fire spread",
+            "NO ELEVATORS - Use stairs only, elevators may trap you",
+            "ALERT NEIGHBORS - Knock on doors, shout 'Fire! Get Out!'",
+            "WET CLOTH - Use wet cloth over nose and mouth if smoky",
+            "FEEL DOORS - Before opening, feel door for heat. If hot, use alternate route",
+            "IF TRAPPED - Close door, seal gaps with wet towels, go to window, signal for help"
+          ],
+          "keep_caller_calm": "Reassure that help is on the way. Fire brigade dispatched. Stay on line for updates."
+        },
+        {
+          "step": 4,
+          "phase": "En-Route Coordination",
+          "action": "Multi-Agency Synchronization",
+          "coordination_tasks": [
+            "Notify electricity board (BESCOM/MSEB/DVVNL/local utility) for emergency power cutoff",
+            "Alert water supply department if additional water source needed",
+            "Contact traffic police for route clearance - activate green corridor if P1",
+            "If narrow lanes (old city/slum) - request smaller Quick Response Vehicle",
+            "Update responding units with real-time information from caller",
+            "Prepare for specific hazards (LPG cylinders common in Indian homes)"
+          ]
+        },
+        {
+          "step": 5,
+          "phase": "On-Scene Arrival",
+          "action": "Incident Command Establishment",
+          "first_unit_responsibilities": [
+            "Station Officer assumes Incident Commander role",
+            "Size-up: 360-degree assessment of building and fire",
+            "Establish command post at safe location (upwind, 100m for P1)",
+            "Set up perimeter (100m for P1, 50m for P2) - request police assistance",
+            "Identify water source (hydrant/tanker/static water body)",
+            "Conduct primary search for trapped persons - highest priority",
+            "Assign entry team with SCBA for interior attack"
+          ],
+          "safety_priorities": [
+            "Account for all personnel",
+            "Ensure two-way communication",
+            "Establish backup team for rescue",
+            "Monitor for building collapse signs"
+          ]
+        },
+        {
+          "step": 6,
+          "phase": "Fire Suppression Operations",
+          "action": "Systematic Fire Attack",
+          "tactical_approach": [
+            "Attack from UPWIND side when possible",
+            "Use appropriate extinguishing agent based on fire class:",
+            "- Water for Class A (wood, paper, cloth)",
+            "- Foam for Class B (oil, petrol)",
+            "- CO2/Dry powder for Class C (electrical)",
+            "- Dry powder for Class D (metal fires)",
+            "Prevent fire spread to adjacent structures - protect exposures",
+            "Ventilate smoke safely from opposite side of attack",
+            "COOL LPG cylinders with water spray from safe distance - DO NOT APPROACH if heated/hissing",
+            "Check ceiling, loft, and concealed spaces - fire travels upward"
+          ],
+          "indian_context": "LPG cylinders (14.2kg) are present in nearly every Indian household - priority is to locate and cool them to prevent explosion"
+        },
+        {
+          "step": 7,
+          "phase": "Search and Rescue",
+          "action": "Systematic Life Search",
+          "search_protocol": [
+            "Primary search - rapid sweep of all rooms immediately",
+            "Secondary search - thorough search after initial knockdown",
+            "Room-by-room systematic approach with communication",
+            "Check under beds, in cupboards, bathrooms (children often hide)",
+            "Use thermal imaging camera if available",
+            "Mark searched rooms with standard symbols",
+            "Firefighter carry techniques for victim removal",
+            "Immediate oxygen administration to rescued victims"
+          ],
+          "victim_priorities": "Children and elderly first, then other adults. All smoke inhalation victims need hospital evaluation."
+        },
+        {
+          "step": 8,
+          "phase": "Medical Triage and Treatment",
+          "action": "Casualty Management",
+          "triage_system": [
+            "Immediate (RED): Smoke inhalation with respiratory distress, severe burns >20% TBSA, unconscious",
+            "Delayed (YELLOW): Moderate burns 10-20%, minor smoke inhalation but alert",
+            "Minor (GREEN): Small burns <10%, minor injuries, able to walk",
+            "Expectant (BLACK): Deceased or injuries incompatible with life"
+          ],
+          "on_scene_treatment": [
+            "Smoke inhalation - 100% oxygen via non-rebreather mask",
+            "Burns - cool with water for 10-20 minutes (NOT ice)",
+            "Cover burns with sterile dressing, DO NOT apply ointments",
+            "Keep burn victims warm (hypothermia risk)",
+            "All smoke inhalation victims to hospital for CO level check and monitoring"
+          ],
+          "transport_priority": "Critical patients to burn center if available, otherwise nearest equipped hospital"
+        },
+        {
+          "step": 9,
+          "phase": "Overhaul and Investigation",
+          "action": "Complete Extinguishment and Origin Determination",
+          "overhaul_tasks": [
+            "Ensure complete extinguishment - check all hotspots with thermal camera",
+            "Pull down ceiling/wall coverings to expose hidden fire",
+            "Remove smoldering materials to outside",
+            "Ventilate structure completely"
+          ],
+          "investigation_protocol": [
+            "PRESERVE fire origin area - do not disturb evidence",
+            "Forensic photography of scene, origin point, and damage pattern",
+            "Document: Electrical panels, appliances, potential ignition sources",
+            "Interview: Residents, neighbors, first witnesses",
+            "Check for fire safety violations (blocked exits, illegal storage)",
+            "Estimate monetary damage for insurance purposes",
+            "Prepare detailed incident report within 24 hours"
+          ],
+          "evidence_preservation": "If arson suspected, seal area and notify police immediately. Do not allow re-entry until investigation complete."
+        }
+      ],
+
+      "escalation_triggers": [
+        {
+          "condition": "Fire not controlled within 30 minutes",
+          "action": "Request additional tenders and manpower from neighboring stations",
+          "notification": "District Fire Officer, Municipal Fire Chief"
+        },
+        {
+          "condition": "Structural collapse imminent",
+          "action": "Evacuate 200m radius, withdraw all personnel, call structural engineer",
+          "notification": "NDRF, Municipal Corporation, Police for wider evacuation"
+        },
+        {
+          "condition": "Hazardous materials beyond LPG",
+          "action": "Activate Hazmat protocol, evacuate 500m, specialized PPE",
+          "notification": "State Disaster Management, Pollution Control Board, District Magistrate"
+        },
+        {
+          "condition": "Casualties exceed 5 persons",
+          "action": "Activate Mass Casualty Incident (MCI) protocol, request multiple ambulances",
+          "notification": "Civil Surgeon, Blood Bank, All nearby hospitals"
+        },
+        {
+          "condition": "Fire threatens critical infrastructure",
+          "action": "Priority resource allocation, protect critical facility",
+          "notification": "District Collector, SDM, Facility Administrator"
+        },
+        {
+          "condition": "Slum fire spreading rapidly",
+          "action": "Request 5+ fire tenders, bulldozer for firebreak, mass evacuation",
+          "notification": "District Disaster Management, Revenue Department for relief, NGOs for temporary shelter"
+        }
+      ],
+
+      "mandatory_notifications": [
+        "Local Police Station (for FIR if required - suspected arson)",
+        "Electricity Board for emergency power disconnection",
+        "Municipal Corporation Building Safety Department",
+        "District Fire Officer (all P1 incidents)",
+        "Hospital (if casualties for bed availability)",
+        "Media Cell (if major incident for accurate information dissemination)"
+      ],
+
+      "conditional_notifications": [
+        "State Disaster Response Force (SDRF) - if incident beyond local capacity",
+        "National Disaster Response Force (NDRF) - if calamity-scale event",
+        "Revenue Department - for damage assessment and compensation",
+        "Social Welfare Department - for victim rehabilitation and shelter",
+        "Indian Air Force - if aerial water dropping required (forest interface fires)",
+        "Indian Railways - if fire near railway property or affecting operations",
+        "NGOs and Civil Society - for relief supplies if mass displacement",
+        "Insurance Companies - through police for investigation and claims"
+      ],
+
+      "india_specific_considerations": [
+        {
+          "factor": "LPG Cylinders",
+          "details": "14.2kg domestic LPG cylinders present in nearly every household. Priority action: locate and cool with water spray from safe distance (minimum 10m). If cylinder is heated (bulging, hissing, discolored) - evacuate immediately, do not approach. Explosion risk: BLEVE (Boiling Liquid Expanding Vapor Explosion) can propel cylinder 500m+"
+        },
+        {
+          "factor": "Narrow Lanes in Old Cities",
+          "details": "Many Indian cities have historic areas with lanes too narrow for standard fire tenders (width <3m). Solution: Use Quick Response Vehicles, motorcycle units, or manual firefighting with portable equipment. Pre-planning essential - identify access points in advance."
+        },
+        {
+          "factor": "Slums and Informal Settlements",
+          "details": "Jhuggi-jhopdi clusters (slums) present unique challenges: Extremely rapid fire spread due to kutcha houses (thatch, plastic, wood), very close proximity (<1m spacing), inadequate water supply, no access for vehicles. Fire can destroy 500+ homes in under an hour. Strategy: Aggressive initial attack, create firebreaks, mass evacuation, arrange immediate relief shelters."
+        },
+        {
+          "factor": "Language and Communication",
+          "details": "India has 22 official languages and hundreds of dialects. Firefighters must know local language (Hindi/Tamil/Bengali/Telugu/Marathi etc.) or have translation support. Use visual communication (hand signals) when language barrier exists. Public safety announcements must be multilingual."
+        },
+        {
+          "factor": "Religious and Cultural Structures",
+          "details": "Temples, mosques, churches, gurudwaras require culturally sensitive handling. Coordinate with religious leaders, respect customs (remove shoes in temples, head covering in gurudwaras), preserve religious artifacts if safe to do so. Community cooperation essential."
+        },
+        {
+          "factor": "Monsoon Season Challenges",
+          "details": "June-September heavy rains create: Waterlogged streets (pump capacity needed), limited visibility, slippery surfaces, flooding in low-lying areas, difficult access. Ensure pumps rated for muddy water, have backup routes planned."
+        },
+        {
+          "factor": "Joint Family Living",
+          "details": "Indian joint family system means 10-15 people may live in single household. Thorough search absolutely essential - multiple bedrooms, elderly/disabled who may not evacuate, children in various rooms. Account for everyone via resident list."
+        },
+        {
+          "factor": "Common Indian Fire Causes",
+          "details": "Mosquito coils (slow-burning, often left overnight), kerosene stoves (leaks common), electrical overload (illegal connections, old wiring), incense sticks and diyas (oil lamps), clothes drying near heat sources, cooking fires (chulha), short circuits during power fluctuations"
+        },
+        {
+          "factor": "Chawls and Old Buildings",
+          "details": "Mumbai chawls and old buildings in cities: Wooden structures with common corridors, shared toilets, multiple families per floor, rapid vertical fire spread via staircases, poor maintenance. Expect structural weakness, collapse risk."
+        },
+        {
+          "factor": "Festival-Related Fires",
+          "details": "Diwali: Firecrackers and diyas cause spike in fires (Oct-Nov). Holi: Bonfires. Lohri: Bonfire celebrations (Punjab). Ganesh Visarjan and Durga Puja: Pandal fires. Pre-position resources during festival seasons, public awareness campaigns, ban on crackers in some areas."
+        }
+      ],
+
+      "special_protocols": {
+        "high_rise_fires": {
+          "definition": "Buildings above 15 meters (approximately 5 floors)",
+          "challenges": ["Vertical smoke spread via stairwells", "Evacuating large populations", "Limited water pressure at heights", "Firefighter fatigue climbing stairs", "Rescue from upper floors"],
+          "tactics": ["Establish staging areas every 5 floors", "Use building standpipes if available", "Deploy aerial ladder for rescue", "Pressurize stairwells to prevent smoke entry if possible", "Helicopter for roof rescue only if safe LZ available"]
+        },
+        "electrical_fires": {
+          "safety_first": "NEVER use water on energized electrical equipment",
+          "protocol": ["Ensure power is cut off - coordinate with electricity board", "Use CO2 or dry powder extinguishers", "If safe after power cutoff, water can be used", "Check electrical panels for main disconnect", "Watch for re-energization - power may come back"],
+          "common_locations": "Electrical rooms, transformer stations, distribution boards, meter rooms, overhead cables"
+        },
+        "lpg_incidents": {
+          "recognition": "Sweet smell (ethyl mercaptan added for detection), hissing sound, visible vapor",
+          "immediate_actions": ["Evacuate 100m radius minimum", "Eliminate all ignition sources", "Do not use electrical switches or mobile phones in gas area", "Ventilate area if safe", "Cool cylinder with water from distance if safe", "Let gas dissipate naturally"],
+          "if_fire": "Let LPG fire burn if safe - extinguishing may cause gas accumulation and larger explosion. Cool cylinder and surroundings.",
+          "bleve_signs": "Cylinder discoloration (rainbow effect), bulging, loud roaring sound, flames impinging on cylinder. If seen - EVACUATE IMMEDIATELY, withdraw all personnel 500m+"
+        }
+      },
+
+      "post_incident_requirements": [
+        "Complete incident report within 24 hours",
+        "Submit fire investigation report within 72 hours if cause determination needed",
+        "Update property owner on building safety status - unsafe buildings must be evacuated and barricaded",
+        "Coordinate with insurance surveyors through police",
+        "Public information release through authorized spokesperson only",
+        "Critique and lessons learned session with all responding units within 7 days",
+        "Equipment inspection and refueling - prepare for next call",
+        "Counseling support for firefighters if traumatic incident"
+      ]
+    }
+  ]
+}

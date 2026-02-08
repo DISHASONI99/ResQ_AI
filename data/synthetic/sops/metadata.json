@@ -1,0 +1,20 @@
+[
+  {
+    "id": "SOP-MED-001",
+    "title": "Cardiac Arrest Response Protocol",
+    "category": "Medical",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "SOP-FIRE-001",
+    "title": "Residential Fire Response",
+    "category": "Fire",
+    "access_level": "dispatcher"
+  },
+  {
+    "id": "SOP-ACC-001",
+    "title": "Vehicle Accident Response",
+    "category": "Accident",
+    "access_level": "dispatcher"
+  }
+]

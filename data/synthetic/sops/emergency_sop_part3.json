@@ -1,0 +1,561 @@
+{
+  "document_id": "IUERS-SOP-PART-3",
+  "document_title": "Indian Emergency Response System - Crime & Natural Disaster SOPs",
+  "version": "2.0",
+  "last_updated": "2026-01-18",
+  
+  "crime_emergency_sops": [
+    {
+      "sop_id": "SOP-CRIME-001",
+      "title": "Violent Crime in Progress",
+      "category": "Crime Emergency",
+      "subcategory": "Violent Crime",
+      "keywords": ["robbery", "dacoity", "assault", "attack", "shooting", "stabbing", "weapon", "violence", "loot", "hamla"],
+      
+      "priority_determination": {
+        "assign_P1_if": [
+          "Active shooter / mass casualty event",
+          "Armed robbery in progress",
+          "Kidnapping in progress",
+          "Assault with weapon currently ongoing",
+          "Officer needs assistance call",
+          "Hostage situation",
+          "Acid attack in progress or just occurred",
+          "Bomb threat with device found or suspected",
+          "Gang violence with weapons",
+          "Mob violence / communal violence"
+        ],
+        "assign_P2_if": [
+          "Aggravated assault with suspect fled (<15 minutes)",
+          "Armed robbery just occurred (<15 minutes)",
+          "Domestic violence with weapon present",
+          "Sexual assault just occurred",
+          "Hit and run with injuries",
+          "Robbery of business just occurred"
+        ],
+        "assign_P3_if": [
+          "Theft report (suspect not on scene)",
+          "Vandalism or property damage",
+          "Past tense assault (hours/days ago)",
+          "Burglary discovered after the fact",
+          "Vehicle theft report"
+        ],
+        "assign_P4_if": [
+          "Fraud complaint",
+          "Cyber crime report",
+          "General non-urgent complaint",
+          "Lost property report"
+        ]
+      },
+
+      "required_assets": {
+        "P1_resources": [
+          "Multiple police units (minimum 3 patrol vehicles)",
+          "Armed police / Quick Response Team (QRT)",
+          "Ambulance service (multiple units if mass casualty)",
+          "Fire service if building fire or explosives involved",
+          "Dog squad for search and tracking if suspect fled",
+          "Bomb disposal squad if explosive threat",
+          "Hostage negotiator if barricaded suspect",
+          "SWAT / Commando team for active shooter / high-risk incidents"
+        ],
+        "P2_resources": [
+          "2 Police patrol units",
+          "1 Ambulance for victim",
+          "Detective / Crime investigation team",
+          "Forensic team for evidence collection"
+        ],
+        "P3_resources": [
+          "1 Police unit",
+          "Crime documentation team",
+          "Forensic team if needed"
+        ],
+        "P4_resources": [
+          "1 Police unit",
+          "Specialized unit (Cyber cell, Economic Offenses Wing) as appropriate"
+        ]
+      },
+
+      "response_protocol_steps": [
+        {
+          "step": 1,
+          "phase": "Critical Information Gathering",
+          "action": "Rapid Threat Assessment",
+          "essential_questions": [
+            "Exact location with building name, floor, room if applicable",
+            "Nature of crime (robbery/assault/shooting/stabbing/kidnapping)",
+            "How many suspects? Are they still on scene?",
+            "Weapons present? What type? (Gun/knife/blunt object/explosives)",
+            "Detailed suspect description (gender, approximate age, clothing, height, build, distinguishing features)",
+            "Number of victims? Any injuries? Severity?",
+            "If suspect fled: Which direction? On foot or vehicle?",
+            "If vehicle: Type, color, registration number if visible",
+            "Are there hostages? If yes, how many?",
+            "Is caller in safe location? Where exactly?",
+            "Any demands made by suspects?"
+          ],
+          "dispatcher_safety_check": "Ensure caller is in safe location and speaking freely (not under duress)"
+        },
+        {
+          "step": 2,
+          "phase": "Immediate Dispatch and Multi-Agency Alert",
+          "action": "Coordinated Emergency Response",
+          "dispatch_sequence": [
+            "Dispatch nearest patrol units IMMEDIATELY - minimum 2 units for P1",
+            "Alert QRT / armed police for P1 violent crimes",
+            "Dispatch ambulance (multiple units if mass casualties reported)",
+            "Notify senior officers (Station House Officer, DCP) for P1 situations",
+            "If hostage / active shooter - alert SWAT/commando unit immediately",
+            "If bomb threat - alert bomb disposal squad and fire service",
+            "Coordinate with neighboring police stations for area saturation",
+            "If suspect vehicle described - alert all mobile units and PCR vans with BOLO (Be On Lookout)"
+          ],
+          "communication_protocol": "Use standardized police codes. Provide: Location, Crime type, Suspect description, Weapon type, Officer safety concerns"
+        },
+        {
+          "step": 3,
+          "phase": "Caller Safety Instructions",
+          "action": "Protect Caller and Potential Victims",
+          "if_violence_ongoing": [
+            "If safe to leave: EVACUATE IMMEDIATELY. Get to safe location away from scene.",
+            "Do NOT confront suspect or intervene unless life is in immediate danger and no other option",
+            "If cannot escape: HIDE. Lock doors, turn off lights, silence mobile phone, stay away from windows",
+            "If hiding: Stay on line but remain quiet. Listen to dispatcher instructions",
+            "If must engage to save life: Target vulnerable areas (eyes, throat, groin), use any object as weapon, fight with maximum aggression, escape as soon as possible"
+          ],
+          "if_suspect_fled": [
+            "Do NOT pursue suspect - leave to police",
+            "Do NOT touch anything at scene - preserve evidence",
+            "Clear area and prevent others from entering",
+            "Note exact direction suspect fled, any vehicle details",
+            "Render first aid to victims if trained and safe to do so",
+            "Keep witnesses together for police statements"
+          ],
+          "if_hostage_situation": [
+            "Do NOT approach scene",
+            "Evacuate surrounding areas quietly",
+            "Provide any information about hostages (number, identities, condition)",
+            "If you are hostage: Stay calm, comply with demands, don't make sudden movements, wait for police"
+          ]
+        },
+        {
+          "step": 4,
+          "phase": "Perimeter Establishment and Scene Control",
+          "action": "Tactical Scene Management",
+          "first_unit_on_scene": [
+            "Assess scene from safe distance - do not rush in blindly",
+            "Establish INNER perimeter (minimum 100m for P1, 50m for P2)",
+            "Identify all entry and exit points to scene",
+            "Set up Command Post at safe location outside perimeter",
+            "Request backup for perimeter control",
+            "Begin evacuation of civilians from danger zone",
+            "Prevent entry of unauthorized persons including media",
+            "Identify safe approach routes for additional units"
+          ],
+          "communication": "First officer on scene becomes initial IC (Incident Commander) until relieved by senior officer"
+        },
+        {
+          "step": 5,
+          "phase": "Tactical Assessment and Engagement Decision",
+          "action": "Threat Evaluation and Response Strategy",
+          "active_shooter_protocol": {
+            "priority": "STOP THE KILLING - immediate action required",
+            "tactics": [
+              "Form immediate action team (3-4 officers)",
+              "Rapid deployment to neutralize threat",
+              "Bypass injured victims initially (rescue team follows)",
+              "Move toward sound of gunfire",
+              "Engage shooter with overwhelming force",
+              "Isolate, contain, neutralize"
+            ]
+          },
+          "barricaded_suspect": {
+            "priority": "Containment and negotiation",
+            "tactics": [
+              "Establish tight perimeter - suspect cannot escape",
+              "Cut off utilities if safe (power, gas, phone)",
+              "Deploy negotiator - establish communication",
+              "SWAT team prepares for tactical entry if needed",
+              "Patience - time is on police side in barricaded situation"
+            ]
+          },
+          "hostage_situation": {
+            "priority": "Preserve life of hostages",
+            "tactics": [
+              "DO NOT make entry unless hostages being actively killed",
+              "Establish negotiation - buy time",
+              "Gather intelligence (building layout, number of hostages, hostage taker profile)",
+              "SWAT team prepares rescue options",
+              "Only breach if imminent threat to hostage life"
+            ]
+          }
+        },
+        {
+          "step": 6,
+          "phase": "Victim Care and Evidence Preservation",
+          "action": "Dual Priority Management",
+          "victim_care": [
+            "Once scene is secure, medical care is priority",
+            "Triage victims: Immediate (red), Delayed (yellow), Minor (green), Deceased (black)",
+            "Allow ambulances to enter for evacuation",
+            "Secure separate area for victim statements when stable",
+            "Arrange victim support services (counseling, legal aid)",
+            "Notify family members through appropriate channels"
+          ],
+          "evidence_preservation": [
+            "Secure crime scene with barrier tape",
+            "Document scene with photography before disturbance",
+            "Prevent contamination - limit personnel in scene",
+            "Collect physical evidence (weapons, casings, blood, fibers)",
+            "Preserve digital evidence (CCTV, mobile phones)",
+            "Document chain of custody for all evidence",
+            "Collect witness statements systematically"
+          ],
+          "forensic_team": "Call forensic specialists for detailed evidence collection once scene is secured"
+        },
+        {
+          "step": 7,
+          "phase": "Suspect Apprehension and Interrogation",
+          "action": "Investigation and Prosecution Preparation",
+          "apprehension": [
+            "If suspect fled: Issue lookout notice with description",
+            "Check CCTV in area for suspect movement",
+            "Deploy dog squad to track",
+            "Set up checkpoints on likely escape routes",
+            "Coordinate with railway/bus stations if suspect may flee city",
+            "Issue warrant for arrest once identity established"
+          ],
+          "arrest_protocol": [
+            "Approach with caution - assume armed",
+            "Clear verbal commands before force",
+            "Handcuff immediately upon control",
+            "Search for weapons thoroughly",
+            "Inform of arrest and rights (right to remain silent, right to lawyer)",
+            "Transport to police station in secure vehicle",
+            "Medical examination of suspect (document any injuries)"
+          ],
+          "interrogation": [
+            "Record interrogation as per law (video/audio)",
+            "No coercion or torture (unconstitutional and inadmissible)",
+            "Allow lawyer if requested",
+            "Document confession properly for court admissibility",
+            "Collect forensic evidence (fingerprints, DNA, GSR test for firearms)"
+          ]
+        },
+        {
+          "step": 8,
+          "phase": "Investigation and Case Building",
+          "action": "Prosecution Preparation",
+          "investigation_checklist": [
+            "Register FIR (First Information Report) immediately",
+            "Document all evidence systematically",
+            "Interview all witnesses - record statements under CrPC Section 161",
+            "Prepare site plan / crime scene sketch",
+            "Collect forensic reports (ballistics, fingerprints, DNA, toxicology)",
+            "Obtain CCTV footage from all nearby cameras",
+            "Track suspect's mobile phone location data (with court order)",
+            "Check criminal history of suspect",
+            "Prepare charge sheet within statutory time limit (60-90 days depending on offense)"
+          ]
+        }
+      ],
+
+      "escalation_triggers": [
+        {
+          "condition": "Active shooter with multiple casualties",
+          "action": "Declare major incident, request all available units, activate mutual aid from neighboring districts",
+          "notification": "Police Commissioner, Home Department, Hospital mass casualty alert, Media cell"
+        },
+        {
+          "condition": "Hostage situation prolonged beyond 2 hours",
+          "action": "Escalate to National Security Guard (NSG) if available in city, or elite state commando unit",
+          "notification": "Director General of Police, Home Secretary, NSG operations"
+        },
+        {
+          "condition": "Officer down (police casualty)",
+          "action": "Immediate backup, secure officer and evacuate to hospital, manhunt for suspect",
+          "notification": "All units, senior command, media blackout until family notified"
+        },
+        {
+          "condition": "Bomb threat with device located",
+          "action": "Evacuate 500m radius, bomb disposal squad, fire service standby",
+          "notification": "District Magistrate, NSG bomb disposal, NDRF"
+        },
+        {
+          "condition": "Communal violence / mob violence",
+          "action": "Deploy rapid action force, prohibitory orders (Section 144), preventive detentions",
+          "notification": "District Magistrate, Home Department, Central forces if needed"
+        }
+      ],
+
+      "india_specific_considerations": [
+        {
+          "factor": "Mob Violence and Lynch Mobs",
+          "context": "India has seen incidents of mob violence including lynchings based on rumors (often spread via WhatsApp)",
+          "police_response": "Rapid deployment to prevent mob formation, use of non-lethal crowd control (lathi charge, tear gas), arrest ringleaders, social media monitoring to counter rumors, community policing to build trust"
+        },
+        {
+          "factor": "Communal Tensions",
+          "context": "Religious tensions can escalate quickly, especially during festivals or after provocative incidents",
+          "preventive_measures": "Intelligence gathering, community liaison officers, peace committees, prohibitory orders, flag marches, rumor control cells"
+        },
+        {
+          "factor": "Dowry Deaths and Domestic Violence",
+          "challenge": "Domestic violence is underreported. Dowry-related violence can be fatal.",
+          "protocol": "Mandatory arrest in domestic violence cases with evidence, women police officers for sensitive cases, link to women helpline 181/1091, shelter homes, legal aid for victims"
+        },
+        {
+          "factor": "Acid Attacks",
+          "challenge": "India has high rates of acid attacks, mostly on women",
+          "immediate_response": "Rush victim to hospital - continuous water irrigation for 15-20 minutes, alert plastic surgery / burns unit, register FIR immediately (IPC 326A), counsel victim about compensation schemes, track acid sale regulation compliance"
+        },
+        {
+          "factor": "Honor Killings",
+          "context": "Families killing members for 'honor' (inter-caste/inter-religious marriages)",
+          "approach": "Proactive protection for couples at risk (who report threats), fast-track trials, counseling for families, publicize punishments to deter"
+        },
+        {
+          "factor": "Cybercrime",
+          "rising_threat": "Financial frauds, morphing, online harassment, sextortion",
+          "specialized_response": "Cyber crime cells in each state, portal www.cybercrime.gov.in, coordination with tech companies, digital forensics, awareness campaigns"
+        }
+      ]
+    }
+  ],
+
+  "natural_disaster_sops": [
+    {
+      "sop_id": "SOP-DISASTER-001",
+      "title": "Flood Emergency Response",
+      "category": "Natural Disaster",
+      "subcategory": "Flood",
+      "keywords": ["flood", "baarh", "flooding", "water logging", "inundation", "flash flood", "cloudburst"],
+      
+      "priority_determination": {
+        "assign_P1_if": [
+          "Flash flood with persons trapped",
+          "Rapidly rising water threatening lives",
+          "Building collapse due to flooding",
+          "Persons stranded on rooftops or trees",
+          "Vehicle swept away with occupants",
+          "Dam breach or imminent breach",
+          "Cloudburst in hilly areas"
+        ],
+        "assign_P2_if": [
+          "Gradual flooding with time to evacuate",
+          "Water entering homes but not immediately life-threatening",
+          "Road closures due to flooding",
+          "Animals stranded"
+        ]
+      },
+
+      "required_assets": {
+        "P1_resources": [
+          "NDRF / SDRF teams with boats and rescue equipment",
+          "Fire service water rescue teams",
+          "Navy / Coast Guard (if coastal flooding)",
+          "Helicopters for aerial rescue if available",
+          "Medical teams and ambulances",
+          "Police for evacuation and security",
+          "Relief supplies (food, water, clothing)"
+        ]
+      },
+
+      "response_protocol_steps": [
+        {
+          "step": 1,
+          "phase": "Early Warning and Evacuation",
+          "action": "Proactive Population Movement",
+          "warning_system": [
+            "India Meteorological Department (IMD) issues flood warnings",
+            "Central Water Commission monitors river levels",
+            "District administration disseminates warnings via SMS, TV, radio, sirens",
+            "Village-level volunteers go door-to-door"
+          ],
+          "evacuation_protocol": [
+            "Identify low-lying areas and populations at risk",
+            "Open relief camps / shelters in safe areas (schools, community halls)",
+            "Arrange transport for evacuation (buses, boats)",
+            "Evacuate vulnerable first (elderly, disabled, children, pregnant women)",
+            "Mark evacuated houses to track",
+            "Livestock evacuation where possible"
+          ]
+        },
+        {
+          "step": 2,
+          "phase": "Water Rescue Operations",
+          "action": "Life-Saving Operations",
+          "rescue_tactics": [
+            "Deploy NDRF/SDRF teams with inflatable boats",
+            "House-to-house search in affected areas",
+            "Rescue stranded persons from rooftops - aerial if possible",
+            "Vehicle occupants - break windows if needed for extraction",
+            "Swift water rescue techniques for flowing water",
+            "Mark rescued locations to avoid duplication"
+          ],
+          "safety": "Rescuer safety paramount - use life jackets, helmets, work in teams, do not enter water that is too deep or fast"
+        },
+        {
+          "step": 3,
+          "phase": "Relief Camp Management",
+          "action": "Humanitarian Assistance",
+          "camp_requirements": [
+            "Safe location above flood level",
+            "Clean drinking water (tankers, purification)",
+            "Sanitation facilities (toilets, bathing)",
+            "Food (cooked meals 3 times daily)",
+            "Medical care (mobile medical units)",
+            "Separate spaces for women and families",
+            "Security (prevent theft, violence)",
+            "Children's welfare (recreation, education continuation)"
+          ],
+          "health_concerns": "Prevent waterborne diseases (cholera, typhoid, diarrhea) through clean water, hygiene, vaccination. Monitor for vector-borne diseases (malaria, dengue)."
+        },
+        {
+          "step": 4,
+          "phase": "Recovery and Rehabilitation",
+          "action": "Long-term Restoration",
+          "immediate_post_flood": [
+            "Drain floodwaters where possible (pumps)",
+            "Restore utilities (power, water, communication)",
+            "Clear debris and mud",
+            "Disinfect homes and public spaces",
+            "Repair damaged infrastructure (roads, bridges)"
+          ],
+          "compensation": "State government provides financial assistance for house damage, crop loss, livestock loss, livelihood support as per SDRF norms"
+        }
+      ],
+
+      "india_specific_flood_zones": {
+        "monsoon_floods": "Annual phenomenon affecting Assam, Bihar, UP, West Bengal, Kerala during June-September. Brahmaputra and Ganga basin flooding. Preparedness and early warning systems critical.",
+        "flash_floods": "Uttarakhand, Himachal Pradesh - cloudburst and glacial lake outburst floods (GLOFs). Very rapid onset, high casualties. Need real-time monitoring and quick response.",
+        "urban_flooding": "Mumbai, Chennai, Bangalore, Hyderabad - poor drainage, encroachment of water bodies, heavy rainfall causes waterlogging. Need urban flood management plans.",
+        "coastal_flooding": "Cyclone-induced storm surge in Odisha, Andhra Pradesh, Tamil Nadu, West Bengal. Integrated with cyclone preparedness."
+      }
+    },
+    {
+      "sop_id": "SOP-DISASTER-002",
+      "title": "Earthquake Emergency Response",
+      "category": "Natural Disaster",
+      "subcategory": "Earthquake",
+      "keywords": ["earthquake", "bhukamp", "tremor", "seismic", "building collapse"],
+      
+      "priority_determination": {
+        "all_earthquakes_above_magnitude_5": "Automatic P1 - Major disaster protocol activation"
+      },
+
+      "immediate_response_protocol": [
+        {
+          "phase": "During Earthquake (if personnel on duty experience it)",
+          "action": "Drop, Cover, Hold On",
+          "instructions": "Get under sturdy table/desk, protect head, stay away from windows, do NOT run outside during shaking"
+        },
+        {
+          "phase": "Immediate Aftermath (0-1 hour)",
+          "action": "Search and Rescue Activation",
+          "steps": [
+            "Activate State/District Emergency Operations Center",
+            "Deploy all available police, fire, civil defense",
+            "Request NDRF teams (9 regional hubs across India)",
+            "Alert Indian Army (Army has 225 HADR-trained teams)",
+            "Alert hospitals for mass casualties",
+            "Assess critical infrastructure damage (dams, nuclear plants, bridges)"
+          ]
+        },
+        {
+          "phase": "Urban Search and Rescue (USAR)",
+          "action": "Locate and Extract Survivors",
+          "tactics": [
+            "Systematic area search - grid pattern",
+            "Mark buildings searched (Orange X = searched, body count)",
+            "Use search dogs to locate survivors in rubble",
+            "Breaching and shoring techniques to reach victims",
+            "Medical care during extrication (crush syndrome treatment)",
+            "Priority to structures most likely to have survivors (hospitals, schools, residential)"
+          ],
+          "golden_window": "First 24-48 hours critical for survival. After 72 hours, survival rate drops dramatically."
+        }
+      ],
+
+      "india_specific_seismic_zones": {
+        "Zone_V_Very_High_Risk": "Kashmir, Western Himalayas, Northeast India, Kutch (Gujarat), Andaman & Nicobar",
+        "Zone_IV_High_Risk": "NCR Delhi, Jammu, Himachal, Uttarakhand, Bihar, UP-Nepal border",
+        "preparedness": "Building codes (IS 1893, IS 4326) mandatory but often not enforced. Retrofit of old buildings needed. Public awareness and earthquake drills essential."
+      }
+    },
+    {
+      "sop_id": "SOP-DISASTER-003",
+      "title": "Cyclone Emergency Response",
+      "category": "Natural Disaster",
+      "subcategory": "Cyclone",
+      "keywords": ["cyclone", "toofan", "hurricane", "storm", "wind storm"],
+      
+      "cyclone_preparedness_timeline": {
+        "72_hours_before": [
+          "IMD issues warnings",
+          "District administration activates cyclone preparedness committees",
+          "Pre-position NDRF teams in vulnerable districts",
+          "Stock relief materials (tarpaulin, food, water, medicines)",
+          "Identify and prepare cyclone shelters",
+          "Alert fishing community - boats to harbor, no fishing"
+        ],
+        "48_hours_before": [
+          "Evacuate coastal villages in high-risk areas",
+          "Open cyclone shelters",
+          "Suspend transport (trains, buses, flights)",
+          "Close schools and offices in affected districts",
+          "Tie down loose objects, board up windows",
+          "Issue prohibitory orders if needed"
+        ],
+        "24_hours_before": [
+          "Complete evacuation of vulnerable areas",
+          "Move livestock to safe areas",
+          "Cut power supply in coastal areas (prevent electrocution)",
+          "Deploy response teams in safe locations ready to move",
+          "Last chance to stock essential supplies"
+        ],
+        "during_cyclone": [
+          "Stay indoors in safe room",
+          "Do NOT venture out (wind, flying debris, storm surge)",
+          "Monitor official updates on radio/TV",
+          "Response teams standby - can't operate during peak"
+        ],
+        "after_cyclone_passage": [
+          "Assess damage - aerial survey if possible",
+          "Search and rescue for any casualties",
+          "Clear roads for emergency access",
+          "Restore power and water supply",
+          "Provide relief supplies",
+          "Damage assessment for compensation"
+        ]
+      },
+
+      "india_cyclone_context": {
+        "frequency": "Annual phenomenon - Bay of Bengal (April-May, October-November) and Arabian Sea (May-June)",
+        "vulnerable_states": "Odisha, Andhra Pradesh, Tamil Nadu, West Bengal, Gujarat",
+        "improvements": "India's cyclone early warning and evacuation has dramatically improved. Zero casualty missions possible (Cyclone Fani 2019 - evacuated 1.2 million people)",
+        "key_assets": "NDRF, Coast Guard, Navy, State disaster response forces, Cyclone Warning Division IMD"
+      }
+    }
+  ],
+
+  "disaster_management_framework": {
+    "legal_basis": "Disaster Management Act 2005",
+    "national_level": "National Disaster Management Authority (NDMA) - PM chairs",
+    "state_level": "State Disaster Management Authority (SDMA) - CM chairs",
+    "district_level": "District Disaster Management Authority (DDMA) - District Magistrate/Collector chairs",
+    "response_forces": {
+      "NDRF": "National Disaster Response Force - 12 battalions, specialized CBRN, USAR, water rescue",
+      "SDRF": "State Disaster Response Force - in each state, modeled on NDRF",
+      "Army": "Provides massive manpower and logistics in major disasters",
+      "Coast_Guard_Navy": "Coastal disasters, floods, cyclones, tsunami",
+      "ITBP_BSF_CRPF": "Paramilitary forces assist in disasters",
+      "NGOs": "Many NGOs active in disaster relief"
+    },
+    "financial_mechanism": {
+      "SDRF": "State Disaster Response Fund - for immediate relief",
+      "NDRF": "National Disaster Response Fund - for calamities of severe nature",
+      "PM_Relief_Fund": "For individual cases of distress"
+    }
+  }
+}
