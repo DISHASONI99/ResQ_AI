@@ -1,0 +1,57 @@
+# Non-secret application configuration
+app:
+  name: "ResQ AI"
+  version: "0.1.0"
+  debug: true
+
+# Embedding Models (all local, free)
+embedding:
+  text_model: "BAAI/bge-base-en-v1.5"        # FastEmbed, 768d
+  image_model: "openai/clip-vit-base-patch32" # CLIP, 512d
+  sparse_model: "prithivida/Splade_PP_en_v1"  # SPLADE sparse
+
+# Qdrant Collections
+qdrant:
+  collections:
+    incidents:
+      name: "incident_memory"
+      dense_dim: 768
+      sparse: true
+      quantization: "binary"
+    visual_evidence:
+      name: "visual_evidence"
+      dense_dim: 512
+      quantization: "binary"
+    protocols:
+      name: "protocols_sops"
+      dense_dim: 768
+    landmarks:
+      name: "landmark_index"
+      dense_dim: 768
+    cache:
+      name: "semantic_cache"
+      dense_dim: 768
+
+# LLM Configuration
+llm:
+  provider: "groq"
+  model: "llama-3.3-70b-versatile"
+  fallback_model: "llama-3.1-8b-instant"
+  temperature: 0.3
+  max_tokens: 2048
+
+# Agent Configuration
+agents:
+  max_reflection_loops: 2
+  hitl_enabled: true
+  timeout_seconds: 30
+
+# Reranking
+reranking:
+  model: "cross-encoder/ms-marco-MiniLM-L-6-v2"
+  top_k: 5
+
+# Audio Processing
+audio:
+  whisper_model: "base"  # tiny, base, small, medium, large
+  sample_rate: 16000
