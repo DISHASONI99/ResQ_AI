@@ -1,0 +1,24 @@
+# Setup container Dockerfile - runs seeding scripts
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install dependencies for seeding
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Python packages for seeding
+RUN pip install --no-cache-dir \
+    qdrant-client>=1.7.0 \
+    fastembed>=0.2.0 \
+    transformers>=4.36.0 \
+    torch>=2.1.0 \
+    Pillow>=10.0.0 \
+    python-dotenv>=1.0.0
+
+# Copy scripts
+COPY scripts/ /app/scripts
+
+# Entry point is set in docker-compose.yaml
+CMD ["echo", "Setup container ready"]

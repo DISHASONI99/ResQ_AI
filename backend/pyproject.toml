@@ -1,0 +1,80 @@
+[project]
+name = "resq-ai-backend"
+version = "0.1.0"
+description = "Emergency Response Agentic RAG Backend"
+requires-python = ">=3.11"
+dependencies = [
+    # Core Framework
+    "fastapi",
+    "uvicorn[standard]",
+    "pydantic",
+    "pydantic-settings",
+    "python-multipart",
+    
+    # Qdrant & Embeddings
+    "qdrant-client",
+    "fastembed",
+    
+    # LangGraph & LangChain
+    "langchain",
+    "langchain-groq",
+    "langgraph",
+    
+    # Portkey AI Gateway
+    "portkey-ai",
+    
+    # Audio Processing
+    "openai-whisper",
+    "pydub",
+    "soundfile",
+    
+    # Image Processing (CPU-only PyTorch)
+    "transformers",
+    "torch",
+    "Pillow",
+    
+    # Reranking
+    "sentence-transformers",
+    
+    # Database & Cache
+    "redis",
+    "asyncpg",
+    "sqlalchemy",
+    
+    # Utilities
+    "httpx",
+    "python-jose[cryptography]",
+    "pyyaml",
+    "python-dotenv",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-asyncio",
+    "pytest-cov",
+    "black",
+    "ruff",
+    "mypy",
+]
+
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "I", "N", "W"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]

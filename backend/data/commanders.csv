@@ -1,0 +1,11 @@
+id,name,phone,zone,specialization,status
+CMD-001,Ramesh Kumar,+91-9876543210,Koramangala,Fire,free
+CMD-002,Priya Sharma,+91-9123456789,Indiranagar,Medical,free
+CMD-003,Vikram Singh,+91-8765432109,Whitefield,Fire,free
+CMD-004,Anita Reddy,+91-7654321098,JP Nagar,Flood,free
+CMD-005,Suresh Nair,+91-6543210987,Marathahalli,Fire,free
+CMD-006,Kavitha Iyer,+91-5432109876,Koramangala,Medical,free
+CMD-007,Arjun Menon,+91-4321098765,HSR Layout,Fire,free
+CMD-008,Deepa Krishnan,+91-3210987654,Electronic City,Fire,free
+CMD-009,Rajesh Pillai,+91-2109876543,Jayanagar,Medical,free
+CMD-010,Sneha Das,+91-1098765432,Banashankari,Flood,free
